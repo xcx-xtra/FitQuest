@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "H9qqdo8gjpp6EUrHQsnNclT3J9n8n8CnjNpvOmf694Y=",
+  "Source": "FitQuest.Api",
+  "BasePath": "_content/FitQuest.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,18 @@
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Your_password123
+    ports:
+      - "1433:1433"
+  api:
+    build:
+      context: "./FitQuest/src/FitQuest.Api"
+      dockerfile: Dockerfile
+    ports:
+      - "5000:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__Default=Server=sqlserver,1433;Database=FitQuestDb;User Id=sa;Password=Your_password123;
+
