@@ -81,7 +81,7 @@ Integration with wearable fitness devices
 How to Run Locally
 
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/FitQuest.git
+git clone https://github.com/xcx-xtra/FitQuest.git
 cd FitQuest
 
 # Restore packages & run the API
