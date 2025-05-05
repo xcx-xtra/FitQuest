@@ -15,11 +15,27 @@
         public int Id { get; set; }
         public string Description { get; set; } = string.Empty;
         public bool IsCompleted { get; set; }
+        public int UserId { get; set; }
     }
 
     public class Badge {
         public int Id { get; set; }
         public string Title { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
+    }
+
+    public class DailyGoalDto {
+        public int Id { get; set; }
+        public int UserId { get; set; }
+        public int StepsTarget { get; set; }
+        public DateTime Date { get; set; }
+    }
+
+    public class PointEventDto {
+        public int Id { get; set; }
+        public int UserId { get; set; }
+        public int Points { get; set; }
+        public string Reason { get; set; } = string.Empty;
+        public DateTime Timestamp { get; set; }
     }
 }

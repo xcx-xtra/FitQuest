@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FitQuest.Client.props" />
+</Project>

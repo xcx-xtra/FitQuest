@@ -38,6 +38,11 @@ namespace FitQuest.Api
             if (user == null || !await _userMgr.CheckPasswordAsync(user, dto.Password))
                 return Unauthorized();
 
+            if (string.IsNullOrEmpty(user.UserName))
+            {
+                throw new InvalidOperationException("UserName cannot be null or empty.");
+            }
+
             // Generate JWT
             var claims = new[]
             {
@@ -45,12 +50,16 @@ namespace FitQuest.Api
                 // Add additional claims as needed
             };
 
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
+            var jwtKey = _config["Jwt:Key"] ?? throw new InvalidOperationException("JWT Key is not configured.");
+            var jwtIssuer = _config["Jwt:Issuer"] ?? throw new InvalidOperationException("JWT Issuer is not configured.");
+            var jwtAudience = _config["Jwt:Audience"] ?? throw new InvalidOperationException("JWT Audience is not configured.");
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
             var token = new JwtSecurityToken(
-                issuer: _config["Jwt:Issuer"],
-                audience: _config["Jwt:Audience"],
+                issuer: jwtIssuer,
+                audience: jwtAudience,
                 claims: claims,
                 expires: DateTime.Now.AddDays(1),
                 signingCredentials: creds);
@@ -61,15 +70,15 @@ namespace FitQuest.Api
 
     public class RegisterDto
     {
-        public string Username { get; set; }
-        public string Email { get; set; }
-        public string Password { get; set; }
+        public required string Username { get; set; }
+        public required string Email { get; set; }
+        public required string Password { get; set; }
     }
 
     public class LoginDto
     {
-        public string Username { get; set; }
-        public string Password { get; set; }
+        public required string Username { get; set; }
+        public required string Password { get; set; }
     }
 
     public class User : IdentityUser<int>
