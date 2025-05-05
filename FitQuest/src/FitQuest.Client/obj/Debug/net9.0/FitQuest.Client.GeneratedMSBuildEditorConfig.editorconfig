@@ -28,16 +28,16 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Heatn/OneDrive/Desktop/ProJects Folder/FitQuest App/FitQuest/FitQuest/src/FitQuest.Client/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[C:/Users/Heatn/OneDrive/Desktop/ProJects Folder/FitQuest App/FitQuest/FitQuest/src/FitQuest.Client/Pages/Dashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Heatn/OneDrive/Desktop/ProJects Folder/FitQuest App/FitQuest/FitQuest/src/FitQuest.Client/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+[C:/Users/Heatn/OneDrive/Desktop/ProJects Folder/FitQuest App/FitQuest/FitQuest/src/FitQuest.Client/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Heatn/OneDrive/Desktop/ProJects Folder/FitQuest App/FitQuest/FitQuest/src/FitQuest.Client/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
+[C:/Users/Heatn/OneDrive/Desktop/ProJects Folder/FitQuest App/FitQuest/FitQuest/src/FitQuest.Client/Pages/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Heatn/OneDrive/Desktop/ProJects Folder/FitQuest App/FitQuest/FitQuest/src/FitQuest.Client/_Imports.razor]

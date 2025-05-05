@@ -6,12 +6,13 @@ C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\s
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\dotnet.native.3c4wvb350q.wasm
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\dotnet.runtime.cymp1amu5g.js
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\dotnet.runtime.js.map
-C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\FitQuest.Client.5n0rqfwsr6.pdb
-C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\FitQuest.Client.qhe22m1opa.wasm
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\FitQuest.Client.xy38zswo23.pdb
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\FitQuest.Client.7fjas7f2tt.wasm
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.gf26ou9jj9.wasm
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.rrohwkxxx2.wasm
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.n0ihslit6r.wasm
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.AspNetCore.Components.v3fd2n5hlr.wasm
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.76kzmc18wd.wasm
@@ -32,6 +33,10 @@ C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\s
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Extensions.Logging.4of5ydne24.wasm
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Extensions.Options.ug6nnndcge.wasm
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Extensions.Primitives.hkjc7m6x3e.wasm
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.IdentityModel.Abstractions.v1jgra1son.wasm
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.IdentityModel.JsonWebTokens.t96ljwdidi.wasm
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.IdentityModel.Logging.a3plemhkz7.wasm
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.IdentityModel.Tokens.t3qrhq3328.wasm
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.JSInterop.uxfxoah9jv.wasm
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.igj3a20jgi.wasm
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.VisualBasic.Core.rov4p20cgi.wasm
@@ -77,6 +82,7 @@ C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\s
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Globalization.Calendars.z563vklk8m.wasm
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Globalization.Extensions.hal5qdz64m.wasm
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Globalization.am7w2aiu51.wasm
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.IdentityModel.Tokens.Jwt.9cypj4urde.wasm
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.IO.Compression.Brotli.k5ptxcu8oa.wasm
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.IO.Compression.FileSystem.4g98bz9hnx.wasm
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.IO.Compression.gfq9v8rd6o.wasm
@@ -248,6 +254,7 @@ C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\s
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.IO.FileSystem.DriveInfo.0zghtgeywx.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Security.AccessControl.5e7zoanr8x.wasm.gz
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.rrohwkxxx2.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.coynl9ayrk.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\dotnet.native.3c4wvb350q.wasm.gz
@@ -255,10 +262,11 @@ C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\s
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Runtime.Intrinsics.1y93h4b2tw.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.s0gdlcb6vn.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.IO.Compression.FileSystem.4g98bz9hnx.wasm.gz
-C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\FitQuest.Client.5n0rqfwsr6.pdb.gz
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\FitQuest.Client.xy38zswo23.pdb.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.srbzsu00e3.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Security.Cryptography.Csp.g144j0mhwj.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Reflection.TypeExtensions.3129t08e49.wasm.gz
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.IdentityModel.Tokens.t3qrhq3328.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.ls8wraf4rs.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Net.ServicePoint.f0230rgpv5.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\blazor.boot.json.gz
@@ -266,6 +274,7 @@ C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\s
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Net.Primitives.ztjd6fle53.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.IO.IsolatedStorage.ilz88wqgty.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Extensions.Primitives.hkjc7m6x3e.wasm.gz
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.IdentityModel.JsonWebTokens.t96ljwdidi.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Security.Cryptography.X509Certificates.ii4hsghias.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Private.Uri.zb1h1ffiro.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Security.Cryptography.Primitives.ulrjke3m9v.wasm.gz
@@ -280,7 +289,7 @@ C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\s
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.CSharp.rtelzgo5qn.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Drawing.Primitives.zet6h4b0y4.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Linq.Queryable.h2kw1rfdow.wasm.gz
-C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\FitQuest.Client.qhe22m1opa.wasm.gz
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\FitQuest.Client.7fjas7f2tt.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Console.1jhnsmjkui.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Diagnostics.Contracts.vahp5ntdnv.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Runtime.Extensions.lcwd5nnnzg.wasm.gz
@@ -327,6 +336,7 @@ C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\s
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Resources.ResourceManager.q04y6dcewj.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Threading.Tasks.ztwv4n3l61.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Data.oomazoigjz.wasm.gz
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.IdentityModel.Abstractions.v1jgra1son.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Runtime.Serialization.Json.6hlg1ytzb8.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Net.WebSockets.28yyxg95so.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Private.Xml.Linq.89larmi1tf.wasm.gz
@@ -357,6 +367,7 @@ C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\s
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.tkb8mck29g.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Windows.130fpeggo5.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Net.WebSockets.Client.8c4uwwg311.wasm.gz
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.IdentityModel.Tokens.Jwt.9cypj4urde.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Reflection.Emit.08aiiwe3hu.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.IO.8jykbcf654.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Threading.Overlapped.7e0yhag6uc.wasm.gz
@@ -373,6 +384,7 @@ C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\s
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Collections.Specialized.utzznwyhqi.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Private.Xml.rtp8879em7.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.xypyg2056u.wasm.gz
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.IdentityModel.Logging.a3plemhkz7.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.0n98xlkvez.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Xml.jzjf1ui2ck.wasm.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\wwwroot\_framework\System.Diagnostics.StackTrace.ag0d9lxhtn.wasm.gz
@@ -412,6 +424,7 @@ C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\s
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\FitQuest.Client.pdb
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\Microsoft.AspNetCore.Authorization.dll
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\Microsoft.AspNetCore.Components.dll
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\Microsoft.AspNetCore.Components.Authorization.dll
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\Microsoft.AspNetCore.Components.Forms.dll
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\Microsoft.AspNetCore.Components.Web.dll
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\Microsoft.AspNetCore.Components.WebAssembly.dll
@@ -430,8 +443,13 @@ C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\s
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\Microsoft.JSInterop.dll
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\Microsoft.JSInterop.WebAssembly.dll
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\Microsoft.CSharp.dll
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\Microsoft.VisualBasic.Core.dll
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\bin\Debug\net9.0\Microsoft.VisualBasic.dll
@@ -619,6 +637,7 @@ C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\s
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\FitQuest.Client.sourcelink.json
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\webcil\Microsoft.AspNetCore.Authorization.wasm
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\webcil\Microsoft.AspNetCore.Components.wasm
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\webcil\Microsoft.AspNetCore.Components.Authorization.wasm
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\webcil\Microsoft.AspNetCore.Components.Forms.wasm
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\webcil\Microsoft.AspNetCore.Components.Web.wasm
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\webcil\Microsoft.AspNetCore.Components.WebAssembly.wasm
@@ -637,8 +656,13 @@ C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\s
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\webcil\Microsoft.Extensions.Logging.Abstractions.wasm
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\webcil\Microsoft.Extensions.Options.wasm
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\webcil\Microsoft.Extensions.Primitives.wasm
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\webcil\Microsoft.IdentityModel.Abstractions.wasm
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\webcil\Microsoft.IdentityModel.JsonWebTokens.wasm
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\webcil\Microsoft.IdentityModel.Logging.wasm
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\webcil\Microsoft.IdentityModel.Tokens.wasm
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\webcil\Microsoft.JSInterop.wasm
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\webcil\Microsoft.JSInterop.WebAssembly.wasm
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\webcil\System.IdentityModel.Tokens.Jwt.wasm
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\webcil\Microsoft.CSharp.wasm
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\webcil\Microsoft.VisualBasic.Core.wasm
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\webcil\Microsoft.VisualBasic.wasm
@@ -867,6 +891,7 @@ C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\s
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\compressed\177s3foycn-1g96akwzcu.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\compressed\7uw4t82tge-gf26ou9jj9.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\compressed\77s2lnk9wj-v3fd2n5hlr.gz
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\compressed\8mnarr4av0-rrohwkxxx2.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\compressed\zzmn0dm3gm-n0ihslit6r.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\compressed\p8t0rfm3ea-76kzmc18wd.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\compressed\n4pqbli0dy-vtaucv50wj.gz
@@ -885,8 +910,13 @@ C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\s
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\compressed\2r60p2tq63-mnju7fj288.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\compressed\tzawrjbhrr-ug6nnndcge.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\compressed\cgvr63l7df-hkjc7m6x3e.gz
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\compressed\o5pxpaipsl-v1jgra1son.gz
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\compressed\d3a3kkybrr-t96ljwdidi.gz
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\compressed\v8wlngkcrk-a3plemhkz7.gz
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\compressed\bmcf11hl1x-t3qrhq3328.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\compressed\zm9fic4h64-uxfxoah9jv.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\compressed\pu9ybamm0p-igj3a20jgi.gz
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\compressed\t1sfzmvmop-9cypj4urde.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\compressed\eed37i9yup-rtelzgo5qn.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\compressed\ksdb9c18ab-rov4p20cgi.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\compressed\xm3y8nn83j-yffsxgg1pj.gz
@@ -1065,9 +1095,9 @@ C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\s
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\compressed\9b013rq00g-tjcz0u77k5.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\compressed\85oow9m3vs-tptq2av103.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\compressed\hie0t1akzf-lfu7j35m59.gz
-C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\compressed\evoywo8fe8-qhe22m1opa.gz
-C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\compressed\a93h1bb0o6-5n0rqfwsr6.gz
-C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\compressed\bwz2kfzyiz-4mstp8gdtr.gz
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\compressed\evoywo8fe8-7fjas7f2tt.gz
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\compressed\a93h1bb0o6-xy38zswo23.gz
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\compressed\bwz2kfzyiz-ap4d9dsdq3.gz
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Client\obj\Debug\net9.0\staticwebassets.build.endpoints.json

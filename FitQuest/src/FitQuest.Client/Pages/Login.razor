@@ -1,0 +1,45 @@
+@page "/login"
+@inject HttpClient Http
+@inject NavigationManager Nav
+@inject ITokenService TokenService
+
+<h3>Login</h3>
+
+<EditForm Model="loginModel" OnValidSubmit="HandleLogin">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <InputText @bind-Value="loginModel.Username" placeholder="Username" />
+    <InputText @bind-Value="loginModel.Password" placeholder="Password" type="password" />
+
+    <button type="submit">Login</button>
+</EditForm>
+
+@code {
+    LoginDto loginModel = new();
+
+    async Task HandleLogin()
+    {
+        var response = await Http.PostAsJsonAsync("api/auth/login", loginModel);
+        if (response.IsSuccessStatusCode)
+        {
+            var result = await response.Content.ReadFromJsonAsync<TokenResponse>();
+            if (result?.Token != null)
+            {
+                await TokenService.SetTokenAsync(result.Token);
+                Nav.NavigateTo("/");
+            }
+        }
+    }
+
+    public class LoginDto
+    {
+        public string? Username { get; set; }
+        public string? Password { get; set; }
+    }
+
+    public class TokenResponse
+    {
+        public string? Token { get; set; }
+    }
+}

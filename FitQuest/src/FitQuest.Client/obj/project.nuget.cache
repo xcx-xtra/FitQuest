@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "rTugijbdHm4=",
+  "dgSpecHash": "I1idIlqHdhg=",
   "success": true,
   "projectFilePath": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\FitQuest.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.aspnetcore.authorization\\9.0.4\\microsoft.aspnetcore.authorization.9.0.4.nupkg.sha512",
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.aspnetcore.components\\9.0.4\\microsoft.aspnetcore.components.9.0.4.nupkg.sha512",
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\9.0.4\\microsoft.aspnetcore.components.analyzers.9.0.4.nupkg.sha512",
+    "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\9.0.4\\microsoft.aspnetcore.components.authorization.9.0.4.nupkg.sha512",
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\9.0.4\\microsoft.aspnetcore.components.forms.9.0.4.nupkg.sha512",
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.aspnetcore.components.web\\9.0.4\\microsoft.aspnetcore.components.web.9.0.4.nupkg.sha512",
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\9.0.4\\microsoft.aspnetcore.components.webassembly.9.0.4.nupkg.sha512",
@@ -26,10 +27,15 @@
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.4\\microsoft.extensions.logging.abstractions.9.0.4.nupkg.sha512",
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.extensions.options\\9.0.4\\microsoft.extensions.options.9.0.4.nupkg.sha512",
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.4\\microsoft.extensions.primitives.9.0.4.nupkg.sha512",
+    "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.9.0\\microsoft.identitymodel.abstractions.8.9.0.nupkg.sha512",
+    "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.9.0\\microsoft.identitymodel.jsonwebtokens.8.9.0.nupkg.sha512",
+    "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.identitymodel.logging\\8.9.0\\microsoft.identitymodel.logging.8.9.0.nupkg.sha512",
+    "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.9.0\\microsoft.identitymodel.tokens.8.9.0.nupkg.sha512",
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.jsinterop\\9.0.4\\microsoft.jsinterop.9.0.4.nupkg.sha512",
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.jsinterop.webassembly\\9.0.4\\microsoft.jsinterop.webassembly.9.0.4.nupkg.sha512",
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.4\\microsoft.net.illink.tasks.9.0.4.nupkg.sha512",
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\9.0.4\\microsoft.net.sdk.webassembly.pack.9.0.4.nupkg.sha512",
+    "C:\\Users\\Heatn\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.9.0\\system.identitymodel.tokens.jwt.8.9.0.nupkg.sha512",
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\9.0.4\\microsoft.netcore.app.runtime.mono.browser-wasm.9.0.4.nupkg.sha512"
   ],
   "logs": []

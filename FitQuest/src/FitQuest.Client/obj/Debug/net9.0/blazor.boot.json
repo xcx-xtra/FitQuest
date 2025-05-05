@@ -1,10 +1,11 @@
 {
   "mainAssemblyName": "FitQuest.Client",
   "resources": {
-    "hash": "sha256-bZMgHKmUQsdvbAAqGzjEBzOmtKGAlTB+6qIS99OnFjo=",
+    "hash": "sha256-H4paHP8ebFcT/DZNZ/qXDDVDl+2yYeusl1WBMEAQU2E=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.gf26ou9jj9.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.v3fd2n5hlr.wasm": "Microsoft.AspNetCore.Components.wasm",
+      "Microsoft.AspNetCore.Components.Authorization.rrohwkxxx2.wasm": "Microsoft.AspNetCore.Components.Authorization.wasm",
       "Microsoft.AspNetCore.Components.Forms.n0ihslit6r.wasm": "Microsoft.AspNetCore.Components.Forms.wasm",
       "Microsoft.AspNetCore.Components.Web.76kzmc18wd.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
       "Microsoft.AspNetCore.Components.WebAssembly.vtaucv50wj.wasm": "Microsoft.AspNetCore.Components.WebAssembly.wasm",
@@ -23,8 +24,13 @@
       "Microsoft.Extensions.Logging.Abstractions.mnju7fj288.wasm": "Microsoft.Extensions.Logging.Abstractions.wasm",
       "Microsoft.Extensions.Options.ug6nnndcge.wasm": "Microsoft.Extensions.Options.wasm",
       "Microsoft.Extensions.Primitives.hkjc7m6x3e.wasm": "Microsoft.Extensions.Primitives.wasm",
+      "Microsoft.IdentityModel.Abstractions.v1jgra1son.wasm": "Microsoft.IdentityModel.Abstractions.wasm",
+      "Microsoft.IdentityModel.JsonWebTokens.t96ljwdidi.wasm": "Microsoft.IdentityModel.JsonWebTokens.wasm",
+      "Microsoft.IdentityModel.Logging.a3plemhkz7.wasm": "Microsoft.IdentityModel.Logging.wasm",
+      "Microsoft.IdentityModel.Tokens.t3qrhq3328.wasm": "Microsoft.IdentityModel.Tokens.wasm",
       "Microsoft.JSInterop.uxfxoah9jv.wasm": "Microsoft.JSInterop.wasm",
       "Microsoft.JSInterop.WebAssembly.igj3a20jgi.wasm": "Microsoft.JSInterop.WebAssembly.wasm",
+      "System.IdentityModel.Tokens.Jwt.9cypj4urde.wasm": "System.IdentityModel.Tokens.Jwt.wasm",
       "Microsoft.CSharp.rtelzgo5qn.wasm": "Microsoft.CSharp.wasm",
       "Microsoft.VisualBasic.Core.rov4p20cgi.wasm": "Microsoft.VisualBasic.Core.wasm",
       "Microsoft.VisualBasic.yffsxgg1pj.wasm": "Microsoft.VisualBasic.wasm",
@@ -201,8 +207,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "FitQuest.Client.qhe22m1opa.wasm": "FitQuest.Client.wasm",
-      "FitQuest.Client.5n0rqfwsr6.pdb": "FitQuest.Client.pdb"
+      "FitQuest.Client.7fjas7f2tt.wasm": "FitQuest.Client.wasm",
+      "FitQuest.Client.xy38zswo23.pdb": "FitQuest.Client.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.hvg7u8bimp.js": "sha256-LX9rFEWGVxhkOkAVPG0w5RxPwzPBlEUz6dQNjWS7M+M="
@@ -225,6 +231,7 @@
     "assembly": {
       "Microsoft.AspNetCore.Authorization.gf26ou9jj9.wasm": "sha256-zPFXeeGdBs4UPBpbat5NEN4EI/Ig1eV4jzbgb6Pcurc=",
       "Microsoft.AspNetCore.Components.v3fd2n5hlr.wasm": "sha256-uxsAoGDTMmkORHVq8kyh/BB0ebk1uKUb97qNJkwZeRA=",
+      "Microsoft.AspNetCore.Components.Authorization.rrohwkxxx2.wasm": "sha256-WShaslVUH4uKLh3hXazSn9XwD8JhJmLeMj4QyajtDhc=",
       "Microsoft.AspNetCore.Components.Forms.n0ihslit6r.wasm": "sha256-iRpIK6WbESudNMb4Gn8EobxIwBTS9CaF2sk8Lf6gpxo=",
       "Microsoft.AspNetCore.Components.Web.76kzmc18wd.wasm": "sha256-IRk+L9wTVGOzFRwpwwhlLur5WHJtJijw6DkitrbVWP8=",
       "Microsoft.AspNetCore.Components.WebAssembly.vtaucv50wj.wasm": "sha256-U0o6EFiTsPRa+YLdMx1Xm3pSFijra0DHsawABLDTGRE=",
@@ -243,8 +250,13 @@
       "Microsoft.Extensions.Logging.Abstractions.mnju7fj288.wasm": "sha256-/o20MY3V1aj5IvIOgosGTivRxDe2Bf2ReAnh8UJezgk=",
       "Microsoft.Extensions.Options.ug6nnndcge.wasm": "sha256-foMpU3/ofkt/ZrWQc7UZkpA82JZ66I5r+U5dp7NcMCE=",
       "Microsoft.Extensions.Primitives.hkjc7m6x3e.wasm": "sha256-EQ2SeJgaUjRLYUVamIO8veqo0ULa8a/smS1fHkPruaY=",
+      "Microsoft.IdentityModel.Abstractions.v1jgra1son.wasm": "sha256-jciju9II+M+OZFg9To+6qTTGyKVGU2pgkL07k4DZUZc=",
+      "Microsoft.IdentityModel.JsonWebTokens.t96ljwdidi.wasm": "sha256-AdZDEEUFLDYhmlvDho+z6E9cquuCuCLiAe7sR9NGeF4=",
+      "Microsoft.IdentityModel.Logging.a3plemhkz7.wasm": "sha256-upfT2kxXvyX99e1Bgni+0s+9ZuFcKMDgzdX/NNJgx00=",
+      "Microsoft.IdentityModel.Tokens.t3qrhq3328.wasm": "sha256-F/qJNR9P7G/z4U18xBJdfPldhP0bTZ8hpRaKhXzSpnw=",
       "Microsoft.JSInterop.uxfxoah9jv.wasm": "sha256-DmHnC9ymHQnTh0MVm4HX6gjjWpxkDYwTq2KqksxY+ZA=",
       "Microsoft.JSInterop.WebAssembly.igj3a20jgi.wasm": "sha256-vihRWdXryu7DS4JnQ9L0vQJYUdWnw355a300nvjPHZc=",
+      "System.IdentityModel.Tokens.Jwt.9cypj4urde.wasm": "sha256-GZ3tlvXp0BYHoeEB0JHmvfBxJGgyzDaehkM38FYyfsc=",
       "Microsoft.CSharp.rtelzgo5qn.wasm": "sha256-sb4OTrzpJjaX/xq3MPBJBmS9JkiQz9azllgFrhhU/bw=",
       "Microsoft.VisualBasic.Core.rov4p20cgi.wasm": "sha256-a3rs6Kmp+m12xUnYhoc07m3D9/0TM6zemU7jCmU0WwA=",
       "Microsoft.VisualBasic.yffsxgg1pj.wasm": "sha256-0oH/gAOr4hHKmXwali402ylm77D5GapsgQRn/Am7RTs=",
@@ -412,10 +424,10 @@
       "WindowsBase.5lai2eowco.wasm": "sha256-GcDi5293y2A7oSiFYTbBTUe0d+ISbvgeel4ZNd8KkPM=",
       "mscorlib.wzkfrp7u5k.wasm": "sha256-9PjsU0gaxxz5Vyw++p9DeYUWLsaXbaMS2RbX6wmTUmk=",
       "netstandard.d82br99ghv.wasm": "sha256-DS8keXxU4eQpa1kIoiFxOA2Ii2g9hoNWSaVi8F8AnIE=",
-      "FitQuest.Client.qhe22m1opa.wasm": "sha256-3h+1ZuMoIVRL0bYgMX0ZRDV5c/zenk5bZizz7mdWfbk="
+      "FitQuest.Client.7fjas7f2tt.wasm": "sha256-LfdAhKL2ZffiaDuIvLK38EoSUeL1PPWkMZfF230Cdk0="
     },
     "pdb": {
-      "FitQuest.Client.5n0rqfwsr6.pdb": "sha256-ATKhqP/cfU1AIqF1oL1Xpono8MjBQq/jkX+fv/ep6YM="
+      "FitQuest.Client.xy38zswo23.pdb": "sha256-50b5vBcbokXyJcfIO2OkktegPWa16eM+i1pz+1+O+hQ="
     }
   },
   "cacheBootResources": true,
