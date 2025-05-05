@@ -36,7 +36,7 @@ JWT authentication implemented
 
 /register and /login endpoints functional
 
-🟡 Sprint 3 (May 2–4, 2025) — In Progress
+✅ Sprint 3 (May 2–4, 2025) — In Progress
 
 
 
