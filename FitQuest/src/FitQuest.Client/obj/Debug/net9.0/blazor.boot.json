@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "FitQuest.Client",
   "resources": {
-    "hash": "sha256-bFx40IOFhTlj8yTIerGibYU4r/tCkE1EEUcdq7vdWnY=",
+    "hash": "sha256-lRR8lRlUTk65DucyuEPTyKYjMxpuQ38AbSmvAHwvJGk=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.gf26ou9jj9.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.v3fd2n5hlr.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -207,10 +207,10 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "FitQuest.Shared.4lvrknuoor.wasm": "FitQuest.Shared.wasm",
-      "FitQuest.Shared.8ryftzhjko.pdb": "FitQuest.Shared.pdb",
-      "FitQuest.Client.jinuo2k1of.wasm": "FitQuest.Client.wasm",
-      "FitQuest.Client.b4smnuu5sk.pdb": "FitQuest.Client.pdb"
+      "FitQuest.Shared.h6t5znhlcr.wasm": "FitQuest.Shared.wasm",
+      "FitQuest.Shared.xagbmnmzcm.pdb": "FitQuest.Shared.pdb",
+      "FitQuest.Client.ig0pl6gdac.wasm": "FitQuest.Client.wasm",
+      "FitQuest.Client.pqd1ty7iv5.pdb": "FitQuest.Client.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.hvg7u8bimp.js": "sha256-LX9rFEWGVxhkOkAVPG0w5RxPwzPBlEUz6dQNjWS7M+M="
@@ -426,12 +426,12 @@
       "WindowsBase.5lai2eowco.wasm": "sha256-GcDi5293y2A7oSiFYTbBTUe0d+ISbvgeel4ZNd8KkPM=",
       "mscorlib.wzkfrp7u5k.wasm": "sha256-9PjsU0gaxxz5Vyw++p9DeYUWLsaXbaMS2RbX6wmTUmk=",
       "netstandard.d82br99ghv.wasm": "sha256-DS8keXxU4eQpa1kIoiFxOA2Ii2g9hoNWSaVi8F8AnIE=",
-      "FitQuest.Shared.4lvrknuoor.wasm": "sha256-WPcYiDBD9ozSHoJQk1nEfs1VhmKG/A/8B4hSz74EBHQ=",
-      "FitQuest.Client.jinuo2k1of.wasm": "sha256-i7KxF/VlBus3SgLbACOnk/1wfm5LNdKrDYP3FrNqt+k="
+      "FitQuest.Shared.h6t5znhlcr.wasm": "sha256-B85Se8Sk0d2BGY3XGk1HgHl2Oj2FYCAa/JZqxj9E6KM=",
+      "FitQuest.Client.ig0pl6gdac.wasm": "sha256-khtwuGM+abhuiPfdpIs2rGCUJHeeD0kgNWgyryOSbsU="
     },
     "pdb": {
-      "FitQuest.Shared.8ryftzhjko.pdb": "sha256-tNZ5Ju2v5agXI5taqv0UMVLg04wFshKB9KIucjD7u7Q=",
-      "FitQuest.Client.b4smnuu5sk.pdb": "sha256-2wbUfF2ZEGsyX6JjTvDRy+A613k/L5Qrd4VINpaidaA="
+      "FitQuest.Shared.xagbmnmzcm.pdb": "sha256-Sdni+G//8Q0Crd7L+dP4G01oG/8WsVPiGiRry2g4mME=",
+      "FitQuest.Client.pqd1ty7iv5.pdb": "sha256-Lw8hGtfRkpuodphEWRJIHNkZPKYV/YnuC6dpzm1fRpo="
     }
   },
   "cacheBootResources": true,

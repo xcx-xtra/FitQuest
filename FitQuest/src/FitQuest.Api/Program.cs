@@ -14,8 +14,7 @@ builder.Services.AddOpenApi();
 // Use SQLite for development
 builder.Services.AddDbContext<FitQuestContext>(options =>
 {
-    var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-    options.UseSqlite(connectionString);
+    options.UseSqlite("Data Source=FitQuestDb.sqlite;");
 });
 
 // Configure Identity
@@ -60,11 +59,12 @@ builder.Services.AddControllers();
 
 var app = builder.Build();
 
-// Ensure the database is created
+// Ensure the database is created explicitly for SQLite
 using (var scope = app.Services.CreateScope())
 {
     var dbContext = scope.ServiceProvider.GetRequiredService<FitQuestContext>();
     dbContext.Database.EnsureCreated();
+    Console.WriteLine("Database has been ensured to exist.");
 }
 
 // Configure the HTTP request pipeline.

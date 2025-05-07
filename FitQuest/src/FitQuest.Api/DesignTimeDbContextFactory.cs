@@ -10,18 +10,8 @@ namespace FitQuest.Api
     {
         public FitQuestContext CreateDbContext(string[] args)
         {
-            IConfigurationRoot configuration = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json")
-                .AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")}.json", optional: true)
-                .Build();
-
             var optionsBuilder = new DbContextOptionsBuilder<FitQuestContext>();
-            var connectionString = configuration.GetConnectionString("Default");
-            optionsBuilder.UseSqlServer(
-                connectionString,
-                sqlOpts => sqlOpts.EnableRetryOnFailure());
-
+            optionsBuilder.UseSqlite("Data Source=FitQuestDb.sqlite;");
             return new FitQuestContext(optionsBuilder.Options);
         }
     }

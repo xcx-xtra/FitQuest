@@ -1,0 +1,43 @@
+@page "/goal"
+@inject GoalService GoalService
+@using FitQuest.Shared.Models
+
+<h3>Set Daily Goal</h3>
+
+<EditForm Model="@goal" OnValidSubmit="SubmitGoal">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label>Title:</label>
+        <InputText @bind-Value="goal.Title" class="form-control" />
+    </div>
+
+    <div>
+        <label>Description:</label>
+        <InputTextArea @bind-Value="goal.Description" class="form-control" />
+    </div>
+
+    <div>
+        <InputCheckbox @bind-Value="goal.IsCompleted" />
+        <label>Completed?</label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Goal</button>
+
+    @if (success != null)
+    {
+        <p class="text-success">@success</p>
+    }
+</EditForm>
+
+@code {
+    private DailyGoal goal = new();
+    private string? success;
+
+    private async Task SubmitGoal()
+    {
+        var result = await GoalService.SubmitGoalAsync(goal);
+        success = result ? "Goal saved!" : "Something went wrong.";
+    }
+}
