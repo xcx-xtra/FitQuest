@@ -1,6 +1,8 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+﻿@using Microsoft.AspNetCore.Components.Authorization
+
+<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="">FitQuest.Client</a>
+        <a class="navbar-brand" href="">FitQuest</a> <!-- Properly close the <a> tag -->
         <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -9,21 +11,16 @@
 
 <div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
     <nav class="nav flex-column">
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Counter
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="weather">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Weather
-            </NavLink>
-        </div>
+        <AuthorizeView>
+            <Authorized>
+                <li><a href="/dashboard">Dashboard</a></li>
+                <li><a @onclick="Logout">Logout</a></li>
+            </Authorized>
+            <NotAuthorized>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/register">Register</a></li>
+            </NotAuthorized>
+        </AuthorizeView>
     </nav>
 </div>
 
@@ -35,5 +32,14 @@
     private void ToggleNavMenu()
     {
         collapseNavMenu = !collapseNavMenu;
+    }
+
+    [Inject] public required IJSRuntime JS { get; set; } = default!;
+    [Inject] public required NavigationManager Nav { get; set; } = default!;
+
+    private async Task Logout()
+    {
+        await JS.InvokeVoidAsync("localStorage.removeItem", "authToken");
+        Nav.NavigateTo("/login", forceLoad: true);
     }
 }
