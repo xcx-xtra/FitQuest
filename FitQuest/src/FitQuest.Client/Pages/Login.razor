@@ -45,7 +45,7 @@
             // Notify the authentication state provider
             ((CustomAuthProvider)AuthenticationStateProvider).NotifyAuthChanged(authState);
 
-            Nav.NavigateTo("/");
+            Nav.NavigateTo("/dashboard"); // Correct string literal
         }
         else
         {
