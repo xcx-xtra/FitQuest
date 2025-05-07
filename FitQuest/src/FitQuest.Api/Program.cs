@@ -7,22 +7,26 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Ensure the app variable is declared before usage
-var app = builder.Build();
-
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
+// Use SQLite for development
 builder.Services.AddDbContext<FitQuestContext>(options =>
-    options.UseSqlServer(
-        builder.Configuration.GetConnectionString("DefaultConnection"),
-        sqlOpts => sqlOpts.EnableRetryOnFailure()));
+{
+    var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+    options.UseSqlite(connectionString);
+});
 
 // Configure Identity
 builder.Services.AddIdentity<User, IdentityRole<int>>()
     .AddEntityFrameworkStores<FitQuestContext>()
     .AddDefaultTokenProviders();
+
+// Ensure JWT configuration values are present
+var jwtKey = builder.Configuration["Jwt:Key"] ?? throw new InvalidOperationException("JWT Key is not configured.");
+var jwtIssuer = builder.Configuration["Jwt:Issuer"] ?? throw new InvalidOperationException("JWT Issuer is not configured.");
+var jwtAudience = builder.Configuration["Jwt:Audience"] ?? throw new InvalidOperationException("JWT Audience is not configured.");
 
 // Configure JWT Authentication
 builder.Services.AddAuthentication(options => {
@@ -32,13 +36,29 @@ builder.Services.AddAuthentication(options => {
     opts.TokenValidationParameters = new TokenValidationParameters {
         ValidateIssuer = true,
         ValidateAudience = true,
-        ValidIssuer = builder.Configuration["Jwt:Issuer"],
-        ValidAudience = builder.Configuration["Jwt:Audience"],
-        IssuerSigningKey = new SymmetricSecurityKey(
-            Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"] ?? throw new InvalidOperationException("JWT Key is not configured."))
-        ),
+        ValidIssuer = jwtIssuer,
+        ValidAudience = jwtAudience,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey))
     };
 });
+
+builder.Services.AddAuthorization();
+
+// Add CORS policy
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
+// Add services for controllers
+builder.Services.AddControllers();
+
+var app = builder.Build();
 
 // Ensure the database is created
 using (var scope = app.Services.CreateScope())
@@ -56,6 +76,9 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
+
+// Apply CORS policy
+app.UseCors();
 
 var summaries = new[]
 {
@@ -75,6 +98,12 @@ app.MapGet("/weatherforecast", () =>
     return forecast;
 })
 .WithName("GetWeatherForecast");
+
+// Add a default route to handle requests to the root URL
+app.MapGet("/", () => Results.Ok("Welcome to the FitQuest API!"));
+
+// Map controllers to enable attribute routing
+app.MapControllers();
 
 app.Run();
 

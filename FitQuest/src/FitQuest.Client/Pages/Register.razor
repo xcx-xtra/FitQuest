@@ -1,4 +1,5 @@
 @page "/register"
+@using System.ComponentModel.DataAnnotations
 @inject HttpClient Http
 @inject NavigationManager Nav
 
@@ -20,17 +21,37 @@
 
     async Task HandleRegister()
     {
-        var response = await Http.PostAsJsonAsync("api/auth/register", registerModel);
-        if (response.IsSuccessStatusCode)
+        try
         {
-            Nav.NavigateTo("/login");
+            var response = await Http.PostAsJsonAsync("api/auth/register", registerModel);
+            if (response.IsSuccessStatusCode)
+            {
+                Console.WriteLine("Registration successful. Redirecting to login...");
+                Nav.NavigateTo("/login");
+            }
+            else
+            {
+                var errorContent = await response.Content.ReadAsStringAsync();
+                Console.WriteLine($"Registration failed: {response.StatusCode} - {errorContent}");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An error occurred during registration: {ex.Message}");
         }
     }
 
     public class RegisterDto
     {
-        public string? Username { get; set; }
-        public string? Email { get; set; }
-        public string? Password { get; set; }
+        [Required]
+        public string Username { get; set; } = string.Empty;
+
+        [Required]
+        public string Email { get; set; } = string.Empty;
+
+        [Required]
+        [MinLength(8, ErrorMessage = "Password must be at least 8 characters long.")]
+        [RegularExpression(@"^(?=.*[A-Z])(?=.*[^a-zA-Z0-9]).+$", ErrorMessage = "Password must contain at least one uppercase letter and one non-alphanumeric character.")]
+        public string Password { get; set; } = string.Empty;
     }
 }

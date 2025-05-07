@@ -71,6 +71,11 @@
               "version": "[9.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[9.0.4, )"
             },

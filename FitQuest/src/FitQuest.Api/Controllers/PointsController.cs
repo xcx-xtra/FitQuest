@@ -2,7 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading.Tasks;
-using FitQuest.Api.Models;
+using FitQuest.Shared;
+using FitQuest.Shared.Models;
 
 namespace FitQuest.Api.Controllers
 {

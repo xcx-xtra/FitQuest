@@ -1,7 +1,10 @@
 @page "/login"
-@inject HttpClient Http
+@using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.AspNetCore.Components.Authorization
+@using System.Security.Claims
+@inject ILoginService LoginService
 @inject NavigationManager Nav
-@inject ITokenService TokenService
+@inject AuthenticationStateProvider AuthenticationStateProvider
 
 <h3>Login</h3>
 
@@ -20,15 +23,29 @@
 
     async Task HandleLogin()
     {
-        var response = await Http.PostAsJsonAsync("api/auth/login", loginModel);
-        if (response.IsSuccessStatusCode)
+        if (string.IsNullOrWhiteSpace(loginModel.Username) || string.IsNullOrWhiteSpace(loginModel.Password))
         {
-            var result = await response.Content.ReadFromJsonAsync<TokenResponse>();
-            if (result?.Token != null)
-            {
-                await TokenService.SetTokenAsync(result.Token);
-                Nav.NavigateTo("/");
-            }
+            Console.WriteLine("Username and password cannot be empty.");
+            return;
+        }
+
+        var user = await LoginService.AuthenticateAsync(loginModel.Username, loginModel.Password);
+        if (user != null)
+        {
+            // Simulate setting authentication state
+            var identity = new ClaimsIdentity(new[] { new Claim(ClaimTypes.Name, user.UserName) }, "database");
+            var userPrincipal = new ClaimsPrincipal(identity);
+            var authState = new AuthenticationState(userPrincipal);
+
+            // Notify the authentication state provider
+            ((CustomAuthProvider)AuthenticationStateProvider).NotifyAuthChanged(authState);
+
+            Nav.NavigateTo("/");
+        }
+        else
+        {
+            // Handle invalid login
+            Console.WriteLine("Invalid username or password");
         }
     }
 
@@ -36,10 +53,5 @@
     {
         public string? Username { get; set; }
         public string? Password { get; set; }
-    }
-
-    public class TokenResponse
-    {
-        public string? Token { get; set; }
     }
 }
