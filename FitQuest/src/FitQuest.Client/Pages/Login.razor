@@ -1,10 +1,12 @@
 @page "/login"
 @using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.AspNetCore.Components
 @using Microsoft.AspNetCore.Components.Authorization
 @using System.Security.Claims
 @inject ILoginService LoginService
 @inject NavigationManager Nav
 @inject AuthenticationStateProvider AuthenticationStateProvider
+@inject ITokenService TokenService
 
 <h3>Login</h3>
 
@@ -33,7 +35,10 @@
         if (user != null)
         {
             // Simulate setting authentication state
-            var identity = new ClaimsIdentity(new[] { new Claim(ClaimTypes.Name, user.UserName) }, "database");
+            var token = "mock-jwt-token"; // Replace with actual token retrieval logic
+            await TokenService.SetTokenAsync(token);
+
+            var identity = new ClaimsIdentity(new[] { new Claim(ClaimTypes.Name, user.UserName) }, "jwt");
             var userPrincipal = new ClaimsPrincipal(identity);
             var authState = new AuthenticationState(userPrincipal);
 
