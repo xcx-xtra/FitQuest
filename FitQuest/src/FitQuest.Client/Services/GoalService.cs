@@ -27,4 +27,17 @@ public class GoalService
         var response = await _http.PostAsJsonAsync("api/goals", goal);
         return response.IsSuccessStatusCode;
     }
+
+    public async Task<List<DailyGoal>> GetUserGoalsAsync(string userId)
+    {
+        var authState = await _authStateProvider.GetAuthenticationStateAsync();
+        var token = authState.User.FindFirst("access_token")?.Value;
+
+        if (token != null)
+        {
+            _http.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+        }
+
+        return await _http.GetFromJsonAsync<List<DailyGoal>>($"api/goals/user/{userId}") ?? new List<DailyGoal>();
+    }
 }

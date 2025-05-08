@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Api\\FitQuest.Api.csproj": {}
+    "c:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Api\\FitQuest.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Api\\FitQuest.Api.csproj": {
+    "c:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Api\\FitQuest.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Api\\FitQuest.Api.csproj",
+        "projectUniqueName": "c:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Api\\FitQuest.Api.csproj",
         "projectName": "FitQuest.Api",
-        "projectPath": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Api\\FitQuest.Api.csproj",
+        "projectPath": "c:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Api\\FitQuest.Api.csproj",
         "packagesPath": "C:\\Users\\Heatn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Api\\obj\\",
+        "outputPath": "c:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Heatn\\AppData\\Roaming\\NuGet\\NuGet.Config"

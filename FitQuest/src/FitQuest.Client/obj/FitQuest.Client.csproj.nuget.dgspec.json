@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\FitQuest.Client.csproj": {}
+    "c:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\FitQuest.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\FitQuest.Client.csproj": {
+    "c:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\FitQuest.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\FitQuest.Client.csproj",
+        "projectUniqueName": "c:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\FitQuest.Client.csproj",
         "projectName": "FitQuest.Client",
-        "projectPath": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\FitQuest.Client.csproj",
+        "projectPath": "c:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\FitQuest.Client.csproj",
         "packagesPath": "C:\\Users\\Heatn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\",
+        "outputPath": "c:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Heatn\\AppData\\Roaming\\NuGet\\NuGet.Config"

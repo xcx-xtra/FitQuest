@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4EcHH/k6Whc=",
+  "dgSpecHash": "ADZNuNOzAWk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Api\\FitQuest.Api.csproj",
+  "projectFilePath": "c:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Api\\FitQuest.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Heatn\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Heatn\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

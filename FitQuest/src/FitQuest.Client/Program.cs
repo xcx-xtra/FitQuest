@@ -15,5 +15,6 @@ builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IMockAuthService, MockAuthService>();
 builder.Services.AddScoped<ILoginService, MockAuthService>();
 builder.Services.AddScoped<GoalService>();
+builder.Services.AddScoped<PointService>();
 
 await builder.Build().RunAsync();

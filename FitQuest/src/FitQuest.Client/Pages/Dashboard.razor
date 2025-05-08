@@ -5,3 +5,50 @@
 
 <h3>Welcome to your FitQuest Dashboard</h3>
 <p>You can view your goals and track progress here.</p>
+
+@inject PointService PointService
+@inject AuthenticationStateProvider AuthProvider
+@inject GoalService GoalService
+@using FitQuest.Shared.Models
+@using FitQuest.Client.Services
+
+@if (goals == null || summary == null)
+{
+    <p>Loading data...</p>
+}
+else
+{
+    <h4>Total Points: @summary.TotalPoints</h4>
+
+    <ul>
+        @foreach (var e in summary.History)
+        {
+            <li>@e.Timestamp.ToShortDateString(): @e.Description — @e.Points pts</li>
+        }
+    </ul>
+
+    <h4>Your Goals</h4>
+    <ul>
+        @foreach (var goal in goals)
+        {
+            <li>@goal.Title: @goal.Description (Completed: @goal.IsCompleted)</li>
+        }
+    </ul>
+}
+
+@code {
+    private PointSummaryDto? summary;
+    private List<DailyGoal>? goals;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var auth = await AuthProvider.GetAuthenticationStateAsync();
+        var userId = auth.User.FindFirst(c => c.Type == "sub")?.Value;
+
+        if (userId is not null)
+        {
+            summary = await PointService.GetUserPointsAsync(userId);
+            goals = await GoalService.GetUserGoalsAsync(userId);
+        }
+    }
+}

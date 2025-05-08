@@ -27,10 +27,27 @@ namespace FitQuest.Api.Controllers
         }
 
         [HttpGet("user/{userId}")]
-        public async Task<IActionResult> GetUserPoints(int userId)
+        public async Task<ActionResult<PointSummaryDto>> GetUserPoints(int userId)
         {
-            var points = await _context.Set<PointEvent>().Where(p => p.UserId == userId).ToListAsync();
-            return Ok(points);
+            var events = await _context.PointEvents
+                .Where(p => p.UserId == userId)
+                .OrderByDescending(p => p.DateAwarded)
+                .ToListAsync();
+
+            var totalPoints = events.Sum(p => p.Points);
+
+            var summary = new PointSummaryDto
+            {
+                TotalPoints = totalPoints,
+                History = events.Select(e => new PointEventDto
+                {
+                    Points = e.Points,
+                    Description = e.Description ?? string.Empty,
+                    Timestamp = e.DateAwarded
+                }).ToList()
+            };
+
+            return Ok(summary);
         }
     }
 }

@@ -301,8 +301,8 @@
       ]
     },
     {
-      "Route": "_framework/FitQuest.Client.ig0pl6gdac.wasm",
-      "AssetFile": "_framework/FitQuest.Client.ig0pl6gdac.wasm",
+      "Route": "_framework/FitQuest.Client.dgx22pvx4g.wasm",
+      "AssetFile": "_framework/FitQuest.Client.dgx22pvx4g.wasm",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -315,7 +315,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "36117"
+          "Value": "42261"
         },
         {
           "Name": "Content-Type",
@@ -323,21 +323,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"khtwuGM+abhuiPfdpIs2rGCUJHeeD0kgNWgyryOSbsU=\""
+          "Value": "\"3YtMf8S4hM0pZ7y6o3YANzbvVIqFlziiCtHpL7htCWw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:10:52 GMT"
+          "Value": "Thu, 08 May 2025 02:33:08 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ig0pl6gdac"
+          "Value": "dgx22pvx4g"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-khtwuGM+abhuiPfdpIs2rGCUJHeeD0kgNWgyryOSbsU="
+          "Value": "sha256-3YtMf8S4hM0pZ7y6o3YANzbvVIqFlziiCtHpL7htCWw="
         },
         {
           "Name": "label",
@@ -346,13 +346,13 @@
       ]
     },
     {
-      "Route": "_framework/FitQuest.Client.ig0pl6gdac.wasm",
-      "AssetFile": "_framework/FitQuest.Client.ig0pl6gdac.wasm.gz",
+      "Route": "_framework/FitQuest.Client.dgx22pvx4g.wasm",
+      "AssetFile": "_framework/FitQuest.Client.dgx22pvx4g.wasm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000064511967"
+          "Quality": "0.000055123753"
         }
       ],
       "ResponseHeaders": [
@@ -370,7 +370,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15500"
+          "Value": "18140"
         },
         {
           "Name": "Content-Type",
@@ -378,15 +378,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yv8elsw8DS4/OJCoUOYtWqlZqcDFHafL0BhXp0mJcO4=\""
+          "Value": "\"gEQKuaFQXzeACgwpzKBz9wRM+TyMShBTJWt/B+YLs+Y=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"khtwuGM+abhuiPfdpIs2rGCUJHeeD0kgNWgyryOSbsU=\""
+          "Value": "W/\"3YtMf8S4hM0pZ7y6o3YANzbvVIqFlziiCtHpL7htCWw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:10:53 GMT"
+          "Value": "Thu, 08 May 2025 02:33:08 GMT"
         },
         {
           "Name": "Vary",
@@ -396,11 +396,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ig0pl6gdac"
+          "Value": "dgx22pvx4g"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-khtwuGM+abhuiPfdpIs2rGCUJHeeD0kgNWgyryOSbsU="
+          "Value": "sha256-3YtMf8S4hM0pZ7y6o3YANzbvVIqFlziiCtHpL7htCWw="
         },
         {
           "Name": "label",
@@ -409,8 +409,8 @@
       ]
     },
     {
-      "Route": "_framework/FitQuest.Client.ig0pl6gdac.wasm.gz",
-      "AssetFile": "_framework/FitQuest.Client.ig0pl6gdac.wasm.gz",
+      "Route": "_framework/FitQuest.Client.dgx22pvx4g.wasm.gz",
+      "AssetFile": "_framework/FitQuest.Client.dgx22pvx4g.wasm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -427,7 +427,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15500"
+          "Value": "18140"
         },
         {
           "Name": "Content-Type",
@@ -435,11 +435,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yv8elsw8DS4/OJCoUOYtWqlZqcDFHafL0BhXp0mJcO4=\""
+          "Value": "\"gEQKuaFQXzeACgwpzKBz9wRM+TyMShBTJWt/B+YLs+Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:10:53 GMT"
+          "Value": "Thu, 08 May 2025 02:33:08 GMT"
         },
         {
           "Name": "Vary",
@@ -449,11 +449,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ig0pl6gdac"
+          "Value": "dgx22pvx4g"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-yv8elsw8DS4/OJCoUOYtWqlZqcDFHafL0BhXp0mJcO4="
+          "Value": "sha256-gEQKuaFQXzeACgwpzKBz9wRM+TyMShBTJWt/B+YLs+Y="
         },
         {
           "Name": "label",
@@ -462,145 +462,8 @@
       ]
     },
     {
-      "Route": "_framework/FitQuest.Client.pdb",
-      "AssetFile": "_framework/FitQuest.Client.pqd1ty7iv5.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "33612"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Lw8hGtfRkpuodphEWRJIHNkZPKYV/YnuC6dpzm1fRpo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:10:52 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Lw8hGtfRkpuodphEWRJIHNkZPKYV/YnuC6dpzm1fRpo="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/FitQuest.Client.pdb",
-      "AssetFile": "_framework/FitQuest.Client.pqd1ty7iv5.pdb.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000040467808"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "24710"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"5A0D92Re6ijJRN+kmOQo4yYxL3HFGG7VpIdjckkgdoA=\""
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Lw8hGtfRkpuodphEWRJIHNkZPKYV/YnuC6dpzm1fRpo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:10:53 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Lw8hGtfRkpuodphEWRJIHNkZPKYV/YnuC6dpzm1fRpo="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/FitQuest.Client.pdb.gz",
-      "AssetFile": "_framework/FitQuest.Client.pqd1ty7iv5.pdb.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "24710"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"5A0D92Re6ijJRN+kmOQo4yYxL3HFGG7VpIdjckkgdoA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:10:53 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-5A0D92Re6ijJRN+kmOQo4yYxL3HFGG7VpIdjckkgdoA="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/FitQuest.Client.pqd1ty7iv5.pdb",
-      "AssetFile": "_framework/FitQuest.Client.pqd1ty7iv5.pdb",
+      "Route": "_framework/FitQuest.Client.lup0ponm28.pdb",
+      "AssetFile": "_framework/FitQuest.Client.lup0ponm28.pdb",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -613,7 +476,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "33612"
+          "Value": "35904"
         },
         {
           "Name": "Content-Type",
@@ -621,21 +484,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Lw8hGtfRkpuodphEWRJIHNkZPKYV/YnuC6dpzm1fRpo=\""
+          "Value": "\"I3TZAy8oZ5DZFubD4eEJ8RS9BCRVvma+Eo4FnodCjiI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:10:52 GMT"
+          "Value": "Thu, 08 May 2025 02:33:08 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "pqd1ty7iv5"
+          "Value": "lup0ponm28"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Lw8hGtfRkpuodphEWRJIHNkZPKYV/YnuC6dpzm1fRpo="
+          "Value": "sha256-I3TZAy8oZ5DZFubD4eEJ8RS9BCRVvma+Eo4FnodCjiI="
         },
         {
           "Name": "label",
@@ -644,13 +507,13 @@
       ]
     },
     {
-      "Route": "_framework/FitQuest.Client.pqd1ty7iv5.pdb",
-      "AssetFile": "_framework/FitQuest.Client.pqd1ty7iv5.pdb.gz",
+      "Route": "_framework/FitQuest.Client.lup0ponm28.pdb",
+      "AssetFile": "_framework/FitQuest.Client.lup0ponm28.pdb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000040467808"
+          "Quality": "0.000037962190"
         }
       ],
       "ResponseHeaders": [
@@ -668,7 +531,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "24710"
+          "Value": "26341"
         },
         {
           "Name": "Content-Type",
@@ -676,15 +539,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5A0D92Re6ijJRN+kmOQo4yYxL3HFGG7VpIdjckkgdoA=\""
+          "Value": "\"QmppYnq8lvpCpQLBbzmXSSUqPU+2KOLRMwxDrfF9qzQ=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Lw8hGtfRkpuodphEWRJIHNkZPKYV/YnuC6dpzm1fRpo=\""
+          "Value": "W/\"I3TZAy8oZ5DZFubD4eEJ8RS9BCRVvma+Eo4FnodCjiI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:10:53 GMT"
+          "Value": "Thu, 08 May 2025 02:33:08 GMT"
         },
         {
           "Name": "Vary",
@@ -694,11 +557,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "pqd1ty7iv5"
+          "Value": "lup0ponm28"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Lw8hGtfRkpuodphEWRJIHNkZPKYV/YnuC6dpzm1fRpo="
+          "Value": "sha256-I3TZAy8oZ5DZFubD4eEJ8RS9BCRVvma+Eo4FnodCjiI="
         },
         {
           "Name": "label",
@@ -707,8 +570,8 @@
       ]
     },
     {
-      "Route": "_framework/FitQuest.Client.pqd1ty7iv5.pdb.gz",
-      "AssetFile": "_framework/FitQuest.Client.pqd1ty7iv5.pdb.gz",
+      "Route": "_framework/FitQuest.Client.lup0ponm28.pdb.gz",
+      "AssetFile": "_framework/FitQuest.Client.lup0ponm28.pdb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -725,7 +588,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "24710"
+          "Value": "26341"
         },
         {
           "Name": "Content-Type",
@@ -733,11 +596,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5A0D92Re6ijJRN+kmOQo4yYxL3HFGG7VpIdjckkgdoA=\""
+          "Value": "\"QmppYnq8lvpCpQLBbzmXSSUqPU+2KOLRMwxDrfF9qzQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:10:53 GMT"
+          "Value": "Thu, 08 May 2025 02:33:08 GMT"
         },
         {
           "Name": "Vary",
@@ -747,11 +610,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "pqd1ty7iv5"
+          "Value": "lup0ponm28"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-5A0D92Re6ijJRN+kmOQo4yYxL3HFGG7VpIdjckkgdoA="
+          "Value": "sha256-QmppYnq8lvpCpQLBbzmXSSUqPU+2KOLRMwxDrfF9qzQ="
         },
         {
           "Name": "label",
@@ -760,8 +623,8 @@
       ]
     },
     {
-      "Route": "_framework/FitQuest.Client.wasm",
-      "AssetFile": "_framework/FitQuest.Client.ig0pl6gdac.wasm",
+      "Route": "_framework/FitQuest.Client.pdb",
+      "AssetFile": "_framework/FitQuest.Client.lup0ponm28.pdb",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -774,36 +637,36 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "36117"
+          "Value": "35904"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/wasm"
+          "Value": "application/octet-stream"
         },
         {
           "Name": "ETag",
-          "Value": "\"khtwuGM+abhuiPfdpIs2rGCUJHeeD0kgNWgyryOSbsU=\""
+          "Value": "\"I3TZAy8oZ5DZFubD4eEJ8RS9BCRVvma+Eo4FnodCjiI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:10:52 GMT"
+          "Value": "Thu, 08 May 2025 02:33:08 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-khtwuGM+abhuiPfdpIs2rGCUJHeeD0kgNWgyryOSbsU="
+          "Value": "sha256-I3TZAy8oZ5DZFubD4eEJ8RS9BCRVvma+Eo4FnodCjiI="
         }
       ]
     },
     {
-      "Route": "_framework/FitQuest.Client.wasm",
-      "AssetFile": "_framework/FitQuest.Client.ig0pl6gdac.wasm.gz",
+      "Route": "_framework/FitQuest.Client.pdb",
+      "AssetFile": "_framework/FitQuest.Client.lup0ponm28.pdb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000064511967"
+          "Quality": "0.000037962190"
         }
       ],
       "ResponseHeaders": [
@@ -821,23 +684,23 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15500"
+          "Value": "26341"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/wasm"
+          "Value": "application/octet-stream"
         },
         {
           "Name": "ETag",
-          "Value": "\"yv8elsw8DS4/OJCoUOYtWqlZqcDFHafL0BhXp0mJcO4=\""
+          "Value": "\"QmppYnq8lvpCpQLBbzmXSSUqPU+2KOLRMwxDrfF9qzQ=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"khtwuGM+abhuiPfdpIs2rGCUJHeeD0kgNWgyryOSbsU=\""
+          "Value": "W/\"I3TZAy8oZ5DZFubD4eEJ8RS9BCRVvma+Eo4FnodCjiI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:10:53 GMT"
+          "Value": "Thu, 08 May 2025 02:33:08 GMT"
         },
         {
           "Name": "Vary",
@@ -847,13 +710,150 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-khtwuGM+abhuiPfdpIs2rGCUJHeeD0kgNWgyryOSbsU="
+          "Value": "sha256-I3TZAy8oZ5DZFubD4eEJ8RS9BCRVvma+Eo4FnodCjiI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FitQuest.Client.pdb.gz",
+      "AssetFile": "_framework/FitQuest.Client.lup0ponm28.pdb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26341"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QmppYnq8lvpCpQLBbzmXSSUqPU+2KOLRMwxDrfF9qzQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 02:33:08 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QmppYnq8lvpCpQLBbzmXSSUqPU+2KOLRMwxDrfF9qzQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FitQuest.Client.wasm",
+      "AssetFile": "_framework/FitQuest.Client.dgx22pvx4g.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42261"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3YtMf8S4hM0pZ7y6o3YANzbvVIqFlziiCtHpL7htCWw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 02:33:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3YtMf8S4hM0pZ7y6o3YANzbvVIqFlziiCtHpL7htCWw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FitQuest.Client.wasm",
+      "AssetFile": "_framework/FitQuest.Client.dgx22pvx4g.wasm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000055123753"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18140"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gEQKuaFQXzeACgwpzKBz9wRM+TyMShBTJWt/B+YLs+Y=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"3YtMf8S4hM0pZ7y6o3YANzbvVIqFlziiCtHpL7htCWw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 02:33:08 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3YtMf8S4hM0pZ7y6o3YANzbvVIqFlziiCtHpL7htCWw="
         }
       ]
     },
     {
       "Route": "_framework/FitQuest.Client.wasm.gz",
-      "AssetFile": "_framework/FitQuest.Client.ig0pl6gdac.wasm.gz",
+      "AssetFile": "_framework/FitQuest.Client.dgx22pvx4g.wasm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -870,7 +870,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15500"
+          "Value": "18140"
         },
         {
           "Name": "Content-Type",
@@ -878,11 +878,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yv8elsw8DS4/OJCoUOYtWqlZqcDFHafL0BhXp0mJcO4=\""
+          "Value": "\"gEQKuaFQXzeACgwpzKBz9wRM+TyMShBTJWt/B+YLs+Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:10:53 GMT"
+          "Value": "Thu, 08 May 2025 02:33:08 GMT"
         },
         {
           "Name": "Vary",
@@ -892,13 +892,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yv8elsw8DS4/OJCoUOYtWqlZqcDFHafL0BhXp0mJcO4="
+          "Value": "sha256-gEQKuaFQXzeACgwpzKBz9wRM+TyMShBTJWt/B+YLs+Y="
         }
       ]
     },
     {
-      "Route": "_framework/FitQuest.Shared.h6t5znhlcr.wasm",
-      "AssetFile": "_framework/FitQuest.Shared.h6t5znhlcr.wasm",
+      "Route": "_framework/FitQuest.Shared.dgbz7jm8vx.wasm",
+      "AssetFile": "_framework/FitQuest.Shared.dgbz7jm8vx.wasm",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -911,7 +911,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8469"
+          "Value": "9493"
         },
         {
           "Name": "Content-Type",
@@ -919,21 +919,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"B85Se8Sk0d2BGY3XGk1HgHl2Oj2FYCAa/JZqxj9E6KM=\""
+          "Value": "\"Q+ho70t2RZ/7En3delZYGCnatj0GgU1YDewPbIa+iIM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:10:52 GMT"
+          "Value": "Thu, 08 May 2025 02:14:26 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h6t5znhlcr"
+          "Value": "dgbz7jm8vx"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-B85Se8Sk0d2BGY3XGk1HgHl2Oj2FYCAa/JZqxj9E6KM="
+          "Value": "sha256-Q+ho70t2RZ/7En3delZYGCnatj0GgU1YDewPbIa+iIM="
         },
         {
           "Name": "label",
@@ -942,13 +942,13 @@
       ]
     },
     {
-      "Route": "_framework/FitQuest.Shared.h6t5znhlcr.wasm",
-      "AssetFile": "_framework/FitQuest.Shared.h6t5znhlcr.wasm.gz",
+      "Route": "_framework/FitQuest.Shared.dgbz7jm8vx.wasm",
+      "AssetFile": "_framework/FitQuest.Shared.dgbz7jm8vx.wasm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000303490137"
+          "Quality": "0.000267165375"
         }
       ],
       "ResponseHeaders": [
@@ -966,7 +966,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3294"
+          "Value": "3742"
         },
         {
           "Name": "Content-Type",
@@ -974,15 +974,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8yamZhsrIQNQuZdR05Cf3zQ752vYQr/Lu07N/+j2rJc=\""
+          "Value": "\"PWVe7UeLNKqccJ+KTZNKhQSkXqR1N2GS2z6nmTvCMfA=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"B85Se8Sk0d2BGY3XGk1HgHl2Oj2FYCAa/JZqxj9E6KM=\""
+          "Value": "W/\"Q+ho70t2RZ/7En3delZYGCnatj0GgU1YDewPbIa+iIM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:10:53 GMT"
+          "Value": "Thu, 08 May 2025 02:14:26 GMT"
         },
         {
           "Name": "Vary",
@@ -992,11 +992,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h6t5znhlcr"
+          "Value": "dgbz7jm8vx"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-B85Se8Sk0d2BGY3XGk1HgHl2Oj2FYCAa/JZqxj9E6KM="
+          "Value": "sha256-Q+ho70t2RZ/7En3delZYGCnatj0GgU1YDewPbIa+iIM="
         },
         {
           "Name": "label",
@@ -1005,8 +1005,8 @@
       ]
     },
     {
-      "Route": "_framework/FitQuest.Shared.h6t5znhlcr.wasm.gz",
-      "AssetFile": "_framework/FitQuest.Shared.h6t5znhlcr.wasm.gz",
+      "Route": "_framework/FitQuest.Shared.dgbz7jm8vx.wasm.gz",
+      "AssetFile": "_framework/FitQuest.Shared.dgbz7jm8vx.wasm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1023,7 +1023,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3294"
+          "Value": "3742"
         },
         {
           "Name": "Content-Type",
@@ -1031,11 +1031,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8yamZhsrIQNQuZdR05Cf3zQ752vYQr/Lu07N/+j2rJc=\""
+          "Value": "\"PWVe7UeLNKqccJ+KTZNKhQSkXqR1N2GS2z6nmTvCMfA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:10:53 GMT"
+          "Value": "Thu, 08 May 2025 02:14:26 GMT"
         },
         {
           "Name": "Vary",
@@ -1045,11 +1045,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h6t5znhlcr"
+          "Value": "dgbz7jm8vx"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8yamZhsrIQNQuZdR05Cf3zQ752vYQr/Lu07N/+j2rJc="
+          "Value": "sha256-PWVe7UeLNKqccJ+KTZNKhQSkXqR1N2GS2z6nmTvCMfA="
         },
         {
           "Name": "label",
@@ -1059,7 +1059,7 @@
     },
     {
       "Route": "_framework/FitQuest.Shared.pdb",
-      "AssetFile": "_framework/FitQuest.Shared.xagbmnmzcm.pdb",
+      "AssetFile": "_framework/FitQuest.Shared.wby3jsk0fd.pdb",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1072,7 +1072,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12612"
+          "Value": "13056"
         },
         {
           "Name": "Content-Type",
@@ -1080,28 +1080,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Sdni+G//8Q0Crd7L+dP4G01oG/8WsVPiGiRry2g4mME=\""
+          "Value": "\"jPOjeey62pRHUK8ucWafI+PSnHWROjuy0AfwDiTYn0I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:10:28 GMT"
+          "Value": "Thu, 08 May 2025 02:14:25 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Sdni+G//8Q0Crd7L+dP4G01oG/8WsVPiGiRry2g4mME="
+          "Value": "sha256-jPOjeey62pRHUK8ucWafI+PSnHWROjuy0AfwDiTYn0I="
         }
       ]
     },
     {
       "Route": "_framework/FitQuest.Shared.pdb",
-      "AssetFile": "_framework/FitQuest.Shared.xagbmnmzcm.pdb.gz",
+      "AssetFile": "_framework/FitQuest.Shared.wby3jsk0fd.pdb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000140765766"
+          "Quality": "0.000136873802"
         }
       ],
       "ResponseHeaders": [
@@ -1119,7 +1119,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7103"
+          "Value": "7305"
         },
         {
           "Name": "Content-Type",
@@ -1127,15 +1127,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oAsLvJ4rOxWgMM5ujz1BdAph9ZHlhGWHeL6ukmGnILY=\""
+          "Value": "\"0DhmaDjyMawG/C6wI/Bw4Gmo7RIQF71JKOyaT8HxfpQ=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Sdni+G//8Q0Crd7L+dP4G01oG/8WsVPiGiRry2g4mME=\""
+          "Value": "W/\"jPOjeey62pRHUK8ucWafI+PSnHWROjuy0AfwDiTYn0I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:10:53 GMT"
+          "Value": "Thu, 08 May 2025 02:14:26 GMT"
         },
         {
           "Name": "Vary",
@@ -1145,13 +1145,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Sdni+G//8Q0Crd7L+dP4G01oG/8WsVPiGiRry2g4mME="
+          "Value": "sha256-jPOjeey62pRHUK8ucWafI+PSnHWROjuy0AfwDiTYn0I="
         }
       ]
     },
     {
       "Route": "_framework/FitQuest.Shared.pdb.gz",
-      "AssetFile": "_framework/FitQuest.Shared.xagbmnmzcm.pdb.gz",
+      "AssetFile": "_framework/FitQuest.Shared.wby3jsk0fd.pdb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1168,7 +1168,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7103"
+          "Value": "7305"
         },
         {
           "Name": "Content-Type",
@@ -1176,11 +1176,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oAsLvJ4rOxWgMM5ujz1BdAph9ZHlhGWHeL6ukmGnILY=\""
+          "Value": "\"0DhmaDjyMawG/C6wI/Bw4Gmo7RIQF71JKOyaT8HxfpQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:10:53 GMT"
+          "Value": "Thu, 08 May 2025 02:14:26 GMT"
         },
         {
           "Name": "Vary",
@@ -1190,13 +1190,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-oAsLvJ4rOxWgMM5ujz1BdAph9ZHlhGWHeL6ukmGnILY="
+          "Value": "sha256-0DhmaDjyMawG/C6wI/Bw4Gmo7RIQF71JKOyaT8HxfpQ="
         }
       ]
     },
     {
       "Route": "_framework/FitQuest.Shared.wasm",
-      "AssetFile": "_framework/FitQuest.Shared.h6t5znhlcr.wasm",
+      "AssetFile": "_framework/FitQuest.Shared.dgbz7jm8vx.wasm",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1209,7 +1209,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8469"
+          "Value": "9493"
         },
         {
           "Name": "Content-Type",
@@ -1217,28 +1217,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"B85Se8Sk0d2BGY3XGk1HgHl2Oj2FYCAa/JZqxj9E6KM=\""
+          "Value": "\"Q+ho70t2RZ/7En3delZYGCnatj0GgU1YDewPbIa+iIM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:10:52 GMT"
+          "Value": "Thu, 08 May 2025 02:14:26 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-B85Se8Sk0d2BGY3XGk1HgHl2Oj2FYCAa/JZqxj9E6KM="
+          "Value": "sha256-Q+ho70t2RZ/7En3delZYGCnatj0GgU1YDewPbIa+iIM="
         }
       ]
     },
     {
       "Route": "_framework/FitQuest.Shared.wasm",
-      "AssetFile": "_framework/FitQuest.Shared.h6t5znhlcr.wasm.gz",
+      "AssetFile": "_framework/FitQuest.Shared.dgbz7jm8vx.wasm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000303490137"
+          "Quality": "0.000267165375"
         }
       ],
       "ResponseHeaders": [
@@ -1256,7 +1256,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3294"
+          "Value": "3742"
         },
         {
           "Name": "Content-Type",
@@ -1264,15 +1264,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8yamZhsrIQNQuZdR05Cf3zQ752vYQr/Lu07N/+j2rJc=\""
+          "Value": "\"PWVe7UeLNKqccJ+KTZNKhQSkXqR1N2GS2z6nmTvCMfA=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"B85Se8Sk0d2BGY3XGk1HgHl2Oj2FYCAa/JZqxj9E6KM=\""
+          "Value": "W/\"Q+ho70t2RZ/7En3delZYGCnatj0GgU1YDewPbIa+iIM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:10:53 GMT"
+          "Value": "Thu, 08 May 2025 02:14:26 GMT"
         },
         {
           "Name": "Vary",
@@ -1282,13 +1282,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-B85Se8Sk0d2BGY3XGk1HgHl2Oj2FYCAa/JZqxj9E6KM="
+          "Value": "sha256-Q+ho70t2RZ/7En3delZYGCnatj0GgU1YDewPbIa+iIM="
         }
       ]
     },
     {
       "Route": "_framework/FitQuest.Shared.wasm.gz",
-      "AssetFile": "_framework/FitQuest.Shared.h6t5znhlcr.wasm.gz",
+      "AssetFile": "_framework/FitQuest.Shared.dgbz7jm8vx.wasm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1305,7 +1305,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3294"
+          "Value": "3742"
         },
         {
           "Name": "Content-Type",
@@ -1313,11 +1313,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8yamZhsrIQNQuZdR05Cf3zQ752vYQr/Lu07N/+j2rJc=\""
+          "Value": "\"PWVe7UeLNKqccJ+KTZNKhQSkXqR1N2GS2z6nmTvCMfA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:10:53 GMT"
+          "Value": "Thu, 08 May 2025 02:14:26 GMT"
         },
         {
           "Name": "Vary",
@@ -1327,13 +1327,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8yamZhsrIQNQuZdR05Cf3zQ752vYQr/Lu07N/+j2rJc="
+          "Value": "sha256-PWVe7UeLNKqccJ+KTZNKhQSkXqR1N2GS2z6nmTvCMfA="
         }
       ]
     },
     {
-      "Route": "_framework/FitQuest.Shared.xagbmnmzcm.pdb",
-      "AssetFile": "_framework/FitQuest.Shared.xagbmnmzcm.pdb",
+      "Route": "_framework/FitQuest.Shared.wby3jsk0fd.pdb",
+      "AssetFile": "_framework/FitQuest.Shared.wby3jsk0fd.pdb",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1346,7 +1346,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12612"
+          "Value": "13056"
         },
         {
           "Name": "Content-Type",
@@ -1354,21 +1354,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Sdni+G//8Q0Crd7L+dP4G01oG/8WsVPiGiRry2g4mME=\""
+          "Value": "\"jPOjeey62pRHUK8ucWafI+PSnHWROjuy0AfwDiTYn0I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:10:28 GMT"
+          "Value": "Thu, 08 May 2025 02:14:25 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xagbmnmzcm"
+          "Value": "wby3jsk0fd"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Sdni+G//8Q0Crd7L+dP4G01oG/8WsVPiGiRry2g4mME="
+          "Value": "sha256-jPOjeey62pRHUK8ucWafI+PSnHWROjuy0AfwDiTYn0I="
         },
         {
           "Name": "label",
@@ -1377,13 +1377,13 @@
       ]
     },
     {
-      "Route": "_framework/FitQuest.Shared.xagbmnmzcm.pdb",
-      "AssetFile": "_framework/FitQuest.Shared.xagbmnmzcm.pdb.gz",
+      "Route": "_framework/FitQuest.Shared.wby3jsk0fd.pdb",
+      "AssetFile": "_framework/FitQuest.Shared.wby3jsk0fd.pdb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000140765766"
+          "Quality": "0.000136873802"
         }
       ],
       "ResponseHeaders": [
@@ -1401,7 +1401,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7103"
+          "Value": "7305"
         },
         {
           "Name": "Content-Type",
@@ -1409,15 +1409,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oAsLvJ4rOxWgMM5ujz1BdAph9ZHlhGWHeL6ukmGnILY=\""
+          "Value": "\"0DhmaDjyMawG/C6wI/Bw4Gmo7RIQF71JKOyaT8HxfpQ=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Sdni+G//8Q0Crd7L+dP4G01oG/8WsVPiGiRry2g4mME=\""
+          "Value": "W/\"jPOjeey62pRHUK8ucWafI+PSnHWROjuy0AfwDiTYn0I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:10:53 GMT"
+          "Value": "Thu, 08 May 2025 02:14:26 GMT"
         },
         {
           "Name": "Vary",
@@ -1427,11 +1427,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xagbmnmzcm"
+          "Value": "wby3jsk0fd"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Sdni+G//8Q0Crd7L+dP4G01oG/8WsVPiGiRry2g4mME="
+          "Value": "sha256-jPOjeey62pRHUK8ucWafI+PSnHWROjuy0AfwDiTYn0I="
         },
         {
           "Name": "label",
@@ -1440,8 +1440,8 @@
       ]
     },
     {
-      "Route": "_framework/FitQuest.Shared.xagbmnmzcm.pdb.gz",
-      "AssetFile": "_framework/FitQuest.Shared.xagbmnmzcm.pdb.gz",
+      "Route": "_framework/FitQuest.Shared.wby3jsk0fd.pdb.gz",
+      "AssetFile": "_framework/FitQuest.Shared.wby3jsk0fd.pdb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1458,7 +1458,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7103"
+          "Value": "7305"
         },
         {
           "Name": "Content-Type",
@@ -1466,11 +1466,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oAsLvJ4rOxWgMM5ujz1BdAph9ZHlhGWHeL6ukmGnILY=\""
+          "Value": "\"0DhmaDjyMawG/C6wI/Bw4Gmo7RIQF71JKOyaT8HxfpQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:10:53 GMT"
+          "Value": "Thu, 08 May 2025 02:14:26 GMT"
         },
         {
           "Name": "Vary",
@@ -1480,11 +1480,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xagbmnmzcm"
+          "Value": "wby3jsk0fd"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-oAsLvJ4rOxWgMM5ujz1BdAph9ZHlhGWHeL6ukmGnILY="
+          "Value": "sha256-0DhmaDjyMawG/C6wI/Bw4Gmo7RIQF71JKOyaT8HxfpQ="
         },
         {
           "Name": "label",
@@ -59625,17 +59625,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"N9vk4Ph1BympkZWrFxDxgg638DqhhRZZ8ZWLH46/U6A=\""
+          "Value": "\"coJuoKdkxQZjXqXWsgcAeE1EtxKfdzIWBktWOm2KcyI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:10:53 GMT"
+          "Value": "Thu, 08 May 2025 02:33:08 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-N9vk4Ph1BympkZWrFxDxgg638DqhhRZZ8ZWLH46/U6A="
+          "Value": "sha256-coJuoKdkxQZjXqXWsgcAeE1EtxKfdzIWBktWOm2KcyI="
         }
       ]
     },
@@ -59646,7 +59646,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000078137209"
+          "Quality": "0.000078155530"
         }
       ],
       "ResponseHeaders": [
@@ -59664,7 +59664,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12797"
+          "Value": "12794"
         },
         {
           "Name": "Content-Type",
@@ -59672,15 +59672,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+99kUOv+BM7s3wg5NBKs6g3lCyGhKiM7wR2C9lNb84Q=\""
+          "Value": "\"Tp2MQUjCPUWcGtos5NPUYNy5GH3IvVxTvb2IjzjnZpE=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"N9vk4Ph1BympkZWrFxDxgg638DqhhRZZ8ZWLH46/U6A=\""
+          "Value": "W/\"coJuoKdkxQZjXqXWsgcAeE1EtxKfdzIWBktWOm2KcyI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:04:15 GMT"
+          "Value": "Thu, 08 May 2025 02:14:46 GMT"
         },
         {
           "Name": "Vary",
@@ -59690,7 +59690,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-N9vk4Ph1BympkZWrFxDxgg638DqhhRZZ8ZWLH46/U6A="
+          "Value": "sha256-coJuoKdkxQZjXqXWsgcAeE1EtxKfdzIWBktWOm2KcyI="
         }
       ]
     },
@@ -59713,7 +59713,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12797"
+          "Value": "12794"
         },
         {
           "Name": "Content-Type",
@@ -59721,11 +59721,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+99kUOv+BM7s3wg5NBKs6g3lCyGhKiM7wR2C9lNb84Q=\""
+          "Value": "\"Tp2MQUjCPUWcGtos5NPUYNy5GH3IvVxTvb2IjzjnZpE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 14:04:15 GMT"
+          "Value": "Thu, 08 May 2025 02:14:46 GMT"
         },
         {
           "Name": "Vary",
@@ -59735,7 +59735,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+99kUOv+BM7s3wg5NBKs6g3lCyGhKiM7wR2C9lNb84Q="
+          "Value": "sha256-Tp2MQUjCPUWcGtos5NPUYNy5GH3IvVxTvb2IjzjnZpE="
         }
       ]
     },

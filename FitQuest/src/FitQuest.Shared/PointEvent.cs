@@ -7,5 +7,6 @@ namespace FitQuest.Shared.Models
         public int Points { get; set; }
         public string? Description { get; set; }
         public DateTime DateAwarded { get; set; }
+        public User? User { get; set; }
     }
 }

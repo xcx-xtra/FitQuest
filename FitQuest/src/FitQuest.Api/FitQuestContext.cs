@@ -13,6 +13,16 @@ namespace FitQuest.Api
 
         public DbSet<DailyGoal> DailyGoals { get; set; }
         public DbSet<Badge> Badges { get; set; }
-        // add DbSet<PointEvent>, DbSet<Challenge> as needed
+        public DbSet<PointEvent> PointEvents { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<PointEvent>()
+                .HasOne(p => p.User)
+                .WithMany()
+                .HasForeignKey(p => p.UserId);
+        }
     }
 }
