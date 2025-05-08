@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using FitQuest.Shared;
 using FitQuest.Shared.Models;
+using Microsoft.AspNetCore.SignalR;
 
 namespace FitQuest.Api.Controllers
 {
@@ -12,10 +13,12 @@ namespace FitQuest.Api.Controllers
     public class PointsController : ControllerBase
     {
         private readonly FitQuestContext _context;
+        private readonly IHubContext<LeaderboardHub> _hub;
 
-        public PointsController(FitQuestContext context)
+        public PointsController(FitQuestContext context, IHubContext<LeaderboardHub> hub)
         {
             _context = context;
+            _hub = hub;
         }
 
         [HttpPost]
@@ -23,6 +26,10 @@ namespace FitQuest.Api.Controllers
         {
             _context.Add(points);
             await _context.SaveChangesAsync();
+
+            // Notify leaderboard
+            await _hub.Clients.Group("Leaderboard").SendAsync("LeaderboardUpdated");
+
             return Ok(points);
         }
 

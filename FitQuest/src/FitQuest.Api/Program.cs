@@ -48,14 +48,16 @@ builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
     {
-        policy.AllowAnyOrigin()
+        policy.WithOrigins("http://localhost:5124") // Replace with your allowed origins
               .AllowAnyMethod()
-              .AllowAnyHeader();
+              .AllowAnyHeader()
+              .AllowCredentials(); // Allow WebSocket connections
     });
 });
 
 // Add services for controllers
 builder.Services.AddControllers();
+builder.Services.AddSignalR(); // Add SignalR services
 
 var app = builder.Build();
 
@@ -104,6 +106,7 @@ app.MapGet("/", () => Results.Ok("Welcome to the FitQuest API!"));
 
 // Map controllers to enable attribute routing
 app.MapControllers();
+app.MapHub<LeaderboardHub>("/leaderboardHub");
 
 app.Run();
 

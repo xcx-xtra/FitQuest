@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4IlMoFGUURA=",
+  "dgSpecHash": "mSWcGkpzetc=",
   "success": true,
   "projectFilePath": "c:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\FitQuest.Client.csproj",
   "expectedPackageFiles": [
@@ -12,7 +12,14 @@
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.aspnetcore.components.web\\9.0.4\\microsoft.aspnetcore.components.web.9.0.4.nupkg.sha512",
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\9.0.4\\microsoft.aspnetcore.components.webassembly.9.0.4.nupkg.sha512",
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.devserver\\9.0.4\\microsoft.aspnetcore.components.webassembly.devserver.9.0.4.nupkg.sha512",
+    "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\9.0.4\\microsoft.aspnetcore.connections.abstractions.9.0.4.nupkg.sha512",
+    "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\9.0.4\\microsoft.aspnetcore.http.connections.client.9.0.4.nupkg.sha512",
+    "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\9.0.4\\microsoft.aspnetcore.http.connections.common.9.0.4.nupkg.sha512",
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.aspnetcore.metadata\\9.0.4\\microsoft.aspnetcore.metadata.9.0.4.nupkg.sha512",
+    "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\9.0.4\\microsoft.aspnetcore.signalr.client.9.0.4.nupkg.sha512",
+    "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\9.0.4\\microsoft.aspnetcore.signalr.client.core.9.0.4.nupkg.sha512",
+    "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\9.0.4\\microsoft.aspnetcore.signalr.common.9.0.4.nupkg.sha512",
+    "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\9.0.4\\microsoft.aspnetcore.signalr.protocols.json.9.0.4.nupkg.sha512",
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.4\\microsoft.extensions.configuration.9.0.4.nupkg.sha512",
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.4\\microsoft.extensions.configuration.abstractions.9.0.4.nupkg.sha512",
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.extensions.configuration.binder\\9.0.4\\microsoft.extensions.configuration.binder.9.0.4.nupkg.sha512",
@@ -20,6 +27,7 @@
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.extensions.configuration.json\\9.0.4\\microsoft.extensions.configuration.json.9.0.4.nupkg.sha512",
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.4\\microsoft.extensions.dependencyinjection.9.0.4.nupkg.sha512",
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.4\\microsoft.extensions.dependencyinjection.abstractions.9.0.4.nupkg.sha512",
+    "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.extensions.features\\9.0.4\\microsoft.extensions.features.9.0.4.nupkg.sha512",
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\9.0.4\\microsoft.extensions.fileproviders.abstractions.9.0.4.nupkg.sha512",
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\9.0.4\\microsoft.extensions.fileproviders.physical.9.0.4.nupkg.sha512",
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\9.0.4\\microsoft.extensions.filesystemglobbing.9.0.4.nupkg.sha512",
@@ -36,6 +44,8 @@
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.4\\microsoft.net.illink.tasks.9.0.4.nupkg.sha512",
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\9.0.4\\microsoft.net.sdk.webassembly.pack.9.0.4.nupkg.sha512",
     "C:\\Users\\Heatn\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.9.0\\system.identitymodel.tokens.jwt.8.9.0.nupkg.sha512",
+    "C:\\Users\\Heatn\\.nuget\\packages\\system.net.serversentevents\\9.0.4\\system.net.serversentevents.9.0.4.nupkg.sha512",
+    "C:\\Users\\Heatn\\.nuget\\packages\\system.threading.channels\\9.0.4\\system.threading.channels.9.0.4.nupkg.sha512",
     "C:\\Users\\Heatn\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\9.0.4\\microsoft.netcore.app.runtime.mono.browser-wasm.9.0.4.nupkg.sha512"
   ],
   "logs": []

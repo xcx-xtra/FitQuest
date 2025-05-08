@@ -1,0 +1,46 @@
+@page "/leaderboard"
+@inject HttpClient Http
+@inject LeaderboardService LeaderboardService
+
+<h3>🏆 Leaderboard</h3>
+
+@if (leaders == null)
+{
+    <p>Loading leaderboard...</p>
+}
+else
+{
+    <ol>
+        @foreach (var user in leaders)
+        {
+            <li>@user.UserId — @user.TotalPoints pts</li>
+        }
+    </ol>
+}
+
+@code {
+    private List<UserScoreDto>? leaders;
+
+    protected override async Task OnInitializedAsync()
+    {
+        LeaderboardService.OnLeaderboardUpdated += async () =>
+        {
+            await LoadLeaderboard();
+            StateHasChanged();
+        };
+
+        await LeaderboardService.ConnectAsync();
+        await LoadLeaderboard();
+    }
+
+    private async Task LoadLeaderboard()
+    {
+        leaders = await Http.GetFromJsonAsync<List<UserScoreDto>>("/api/leaderboard/top");
+    }
+
+    public class UserScoreDto
+    {
+        public string UserId { get; set; } = "";
+        public int TotalPoints { get; set; }
+    }
+}

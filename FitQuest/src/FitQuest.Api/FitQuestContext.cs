@@ -14,6 +14,7 @@ namespace FitQuest.Api
         public DbSet<DailyGoal> DailyGoals { get; set; }
         public DbSet<Badge> Badges { get; set; }
         public DbSet<PointEvent> PointEvents { get; set; }
+        public DbSet<Challenge> Challenges { get; set; } // Added DbSet for Challenge
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

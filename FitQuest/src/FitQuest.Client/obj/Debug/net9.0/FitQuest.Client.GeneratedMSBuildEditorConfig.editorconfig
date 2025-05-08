@@ -28,12 +28,20 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[c:/Users/Heatn/OneDrive/Desktop/ProJects Folder/FitQuest App/FitQuest/FitQuest/src/FitQuest.Client/Pages/AdminPanel.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5QYW5lbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/Users/Heatn/OneDrive/Desktop/ProJects Folder/FitQuest App/FitQuest/FitQuest/src/FitQuest.Client/Pages/Dashboard.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [c:/Users/Heatn/OneDrive/Desktop/ProJects Folder/FitQuest App/FitQuest/FitQuest/src/FitQuest.Client/Pages/GoalForm.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR29hbEZvcm0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Heatn/OneDrive/Desktop/ProJects Folder/FitQuest App/FitQuest/FitQuest/src/FitQuest.Client/Pages/Leaderboard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhZGVyYm9hcmQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [c:/Users/Heatn/OneDrive/Desktop/ProJects Folder/FitQuest App/FitQuest/FitQuest/src/FitQuest.Client/Pages/Login.razor]
