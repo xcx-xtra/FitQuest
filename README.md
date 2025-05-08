@@ -1,119 +1,140 @@
-FitQuest Project
+# 🏆 FitQuest
 
-Overview
+A gamified fitness challenge tracker built with Blazor WebAssembly and ASP.NET Core. Users can set daily goals, earn points, unlock badges, and compete on real-time leaderboards.
 
-FitQuest is a gamified fitness tracker built using Blazor WebAssembly for the frontend, ASP.NET Core Web API for the backend, and SignalR for real-time communication. It helps users set daily fitness goals, earn points, and track progress on a live leaderboard.
+---
 
-Core Technologies
+## 🚀 Technologies Used
 
-Frontend: Blazor WebAssembly
+### Frontend
+- **Blazor WebAssembly**
+- Authentication with JWT tokens
+- Component-based UI (Goals Editor, Dashboard, Leaderboard)
 
-Backend: ASP.NET Core Web API with Entity Framework Core (Code-First)
+### Backend
+- **ASP.NET Core Web API**
+- **Entity Framework Core** with SQL Server
+- **ASP.NET Identity** for user management
+- **SignalR** for real-time leaderboard updates
 
-Database: SQL Server
+### DevOps & Deployment
+- GitHub Actions (CI/CD)
+- Azure App Service (future deployment)
+- Logging: Serilog + Azure Application Insights (planned)
 
-Authentication: ASP.NET Core Identity with JWT & Cookie auth
+---
 
-Real-Time: SignalR for live leaderboard updates
+## 📦 Features
 
-DevOps: GitHub Actions, Azure App Service (No Docker)
+- ✅ User registration and JWT login
+- ✅ Set daily fitness goals
+- ✅ Earn points and view point history
+- ✅ Dashboard showing total points and event log
+- 🛠️ Real-time leaderboard using SignalR (coming)
+- 🛠️ Admin panel to manage badges & challenges (coming)
+- 🛠️ Azure deployment setup (coming)
 
-Project Milestones
+---
 
-✅ Sprint 1 (Apr 26–28, 2025)
+## 🧱 Database Schema (EF Core)
 
-Git repo and solution structure created
+| Entity       | Description                                      |
+|--------------|--------------------------------------------------|
+| `AppUser`    | Identity user with unique ID                    |
+| `DailyGoal`  | User-set goals with completion status           |
+| `PointEvent` | Earned points tied to goals and events          |
+| `Badge`      | Milestone rewards unlocked by users             |
+| `Challenge`  | Group-based competitive challenges              |
 
-EF Core models (User, DailyGoal, Badge) defined
+---
 
-SQL Server integration
+## 🔐 Authentication
 
-✅ Sprint 2 (Apr 29–May 1, 2025)
+- ASP.NET Core Identity + JWT bearer tokens
+- Stored in browser local storage for Blazor WebAssembly
+- Authorized endpoints for user-specific goal/point actions
 
-ASP.NET Core Identity integration
+---
 
-JWT authentication implemented
+## 📡 Current API Endpoints
 
-/register and /login endpoints functional
+| Method | Endpoint                          | Description                       |
+|--------|-----------------------------------|-----------------------------------|
+| `POST` | `/api/goals`                      | Create or update daily goals      |
+| `GET`  | `/api/users/{userId}/points`      | Fetch user point summary & log    |
 
-✅ Sprint 3 (May 2–4, 2025) — In Progress
+---
 
+## 📋 Blazor Pages Implemented
 
+- `Register.razor` – Creates user account
+- `Login.razor` – Logs in and stores JWT token
+- `Dashboard.razor` – Shows point totals and goal summaries
+- `Goals.razor` – (WIP) Create/update daily fitness goals
 
-🔜 Sprint 4 (May 5–7, 2025)
+---
 
-SignalR Hub for real-time leaderboard
+## 🧪 Local Development Setup
 
-Broadcast points and rank changes to clients
+1. **Clone the repo**
 
-📅 Sprint 7 (May 14–16, 2025)
+```bash
+git clone https://github.com/your-username/fitquest.git
+cd fitquest
+Update your DB
 
-Finalize Blazor UI and live updates
+bash
+Copy code
+dotnet ef database update
+Run the app
 
-🚀 Sprint 8 (May 17–19, 2025)
-
-Admin Panel, deployment to Azure App Service
-
-API Endpoints
-
-GoalsController
-
-POST /api/goals – Create a new daily goal
-
-GET /api/goals/user/{userId} – Fetch user’s daily goals
-
-PointsController
-
-POST /api/points – Award points to user
-
-GET /api/points/user/{userId} – Get user’s point history
-
-Upcoming Features
-
-SignalR Live Leaderboard
-
-Admin Panel to manage users and badges
-
-Azure Notifications and Reminders
-
-Integration with wearable fitness devices
-
-How to Run Locally
-
-# Clone the repo
-git clone https://github.com/xcx-xtra/FitQuest.git
-cd FitQuest
-
-# Restore packages & run the API
-cd src/FitQuest.Api
-dotnet restore
- dotnet run
-
-# Run the Blazor client
-cd ../FitQuest.Client
+bash
+Copy code
 dotnet run
+Launch in browser
 
-Deployment
+Backend: https://localhost:5001
 
-GitHub Actions will build and deploy to Azure App Service.
+Frontend: https://localhost:5002 (Blazor WASM)
 
-Slot-based deployments used for zero downtime.
+✅ Testing with Postman
+Register
 
-Logs and telemetry handled via Azure Application Insights.
+arduino
+Copy code
+POST /api/account/register
+Login
 
-Security
+bash
+Copy code
+POST /api/account/login
+Get Points
 
-HTTPS and HSTS enforced
+bash
+Copy code
+GET /api/users/{userId}/points
+Headers: Authorization: Bearer {your_token}
 
-CSRF and secure headers middleware in place
+📅 Project Sprint Timeline
+Sprint	Date Range	Key Goals	Status
+Sprint 1	Apr 26–28	Git, EF Core setup	✅ Done
+Sprint 2	Apr 29–May 1	JWT Auth, Register/Login UI	✅ Done
+Sprint 3	May 2–4	Daily Goal backend & UI	✅ Done
+Sprint 4	May 5–7	Points API & Dashboard integration	✅ Done
+Sprint 7	May 14–16	SignalR Leaderboard	🔜 Next
+Sprint 8	May 17–19	Azure Deployment & Admin Panel	🔜 Upcoming
 
-Serilog logging integrated
+👏 Contributing
+Want to contribute? Create a pull request or fork the repo to propose new features, bug fixes, or styling improvements.
 
-Contributors
+📜 License
+MIT License. See LICENSE file for more info.
 
-Webster Boeing — Developer / Project Lead
+🌟 Future Features
+🥇 Badge system for milestones
 
-License
+🧠 AI-generated daily challenge suggestions
 
-MIT License
+📱 Integration with wearable devices (Fitbit, Apple Health)
 
+🌐 Social sharing for goals and achievements
