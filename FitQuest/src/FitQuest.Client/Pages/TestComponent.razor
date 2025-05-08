@@ -1,0 +1,20 @@
+@page "/test"
+
+<h3>Test Component</h3>
+
+<EditForm Model="testModel">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <InputText @bind-Value="testModel.TestField" placeholder="Test Field" />
+    <button type="submit">Submit</button>
+</EditForm>
+
+@code {
+    private TestModel testModel = new();
+
+    public class TestModel
+    {
+        public string? TestField { get; set; }
+    }
+}

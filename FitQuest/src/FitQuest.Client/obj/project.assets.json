@@ -528,6 +528,16 @@
             "related": ".xml"
           }
         }
+      },
+      "FitQuest.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/FitQuest.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FitQuest.Shared.dll": {}
+        }
       }
     },
     "net9.0/browser-wasm": {
@@ -1056,6 +1066,16 @@
           "lib/net9.0/System.IdentityModel.Tokens.Jwt.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "FitQuest.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/FitQuest.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FitQuest.Shared.dll": {}
         }
       }
     }
@@ -2073,10 +2093,16 @@
         "system.identitymodel.tokens.jwt.8.9.0.nupkg.sha512",
         "system.identitymodel.tokens.jwt.nuspec"
       ]
+    },
+    "FitQuest.Shared/1.0.0": {
+      "type": "project",
+      "path": "../FitQuest.Shared/FitQuest.Shared.csproj",
+      "msbuildProject": "../FitQuest.Shared/FitQuest.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "FitQuest.Shared >= 1.0.0",
       "Microsoft.AspNetCore.Components >= 9.0.4",
       "Microsoft.AspNetCore.Components.Authorization >= 9.0.4",
       "Microsoft.AspNetCore.Components.WebAssembly >= 9.0.4",
@@ -2092,11 +2118,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\FitQuest.Client.csproj",
+      "projectUniqueName": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\FitQuest.Client.csproj",
       "projectName": "FitQuest.Client",
-      "projectPath": "c:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\FitQuest.Client.csproj",
+      "projectPath": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\FitQuest.Client.csproj",
       "packagesPath": "C:\\Users\\Heatn\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\",
+      "outputPath": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Heatn\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -2110,7 +2136,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Shared\\FitQuest.Shared.csproj": {
+              "projectPath": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Shared\\FitQuest.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

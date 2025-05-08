@@ -1,29 +1,32 @@
 using Microsoft.AspNetCore.Components.Authorization;
 using System.Security.Claims;
-using System.IdentityModel.Tokens.Jwt;
 
 public class CustomAuthProvider : AuthenticationStateProvider
 {
-    private readonly ITokenService tokenService;
+    private readonly IMockAuthService _authService;
 
-    public CustomAuthProvider(ITokenService tokenService) => this.tokenService = tokenService;
+    public CustomAuthProvider(IMockAuthService authService)
+    {
+        _authService = authService;
+    }
 
     public override async Task<AuthenticationState> GetAuthenticationStateAsync()
     {
-        var token = await tokenService.GetTokenAsync();
+        // Simulate retrieving the current user from the mock service
+        var user = await _authService.GetCurrentUserAsync(); // Replace with actual logic to get the current user
         var identity = new ClaimsIdentity();
 
-        if (!string.IsNullOrWhiteSpace(token))
+        if (user != null)
         {
-            var handler = new JwtSecurityTokenHandler();
-            var jwt = handler.ReadJwtToken(token);
-            var claims = jwt.Claims;
-            identity = new ClaimsIdentity(claims, "jwt");
+            identity = new ClaimsIdentity(new[] { new Claim(ClaimTypes.Name, user.UserName ?? string.Empty) }, "mockService");
         }
 
-        var user = new ClaimsPrincipal(identity);
-        return new AuthenticationState(user);
+        var userPrincipal = new ClaimsPrincipal(identity);
+        return new AuthenticationState(userPrincipal);
     }
 
-    public void NotifyAuthChanged() => NotifyAuthenticationStateChanged(GetAuthenticationStateAsync());
+    public void NotifyAuthChanged(AuthenticationState authState)
+    {
+        NotifyAuthenticationStateChanged(Task.FromResult(authState));
+    }
 }

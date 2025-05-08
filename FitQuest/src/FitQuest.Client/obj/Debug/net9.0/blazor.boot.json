@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "FitQuest.Client",
   "resources": {
-    "hash": "sha256-H4paHP8ebFcT/DZNZ/qXDDVDl+2yYeusl1WBMEAQU2E=",
+    "hash": "sha256-lQNkY05PORDoI7oJiImmdpRhdb+2mDYFjq0aHrfnECQ=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.gf26ou9jj9.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.v3fd2n5hlr.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -207,8 +207,10 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "FitQuest.Client.7fjas7f2tt.wasm": "FitQuest.Client.wasm",
-      "FitQuest.Client.xy38zswo23.pdb": "FitQuest.Client.pdb"
+      "FitQuest.Shared.dgbz7jm8vx.wasm": "FitQuest.Shared.wasm",
+      "FitQuest.Shared.wby3jsk0fd.pdb": "FitQuest.Shared.pdb",
+      "FitQuest.Client.dgx22pvx4g.wasm": "FitQuest.Client.wasm",
+      "FitQuest.Client.lup0ponm28.pdb": "FitQuest.Client.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.hvg7u8bimp.js": "sha256-LX9rFEWGVxhkOkAVPG0w5RxPwzPBlEUz6dQNjWS7M+M="
@@ -424,10 +426,12 @@
       "WindowsBase.5lai2eowco.wasm": "sha256-GcDi5293y2A7oSiFYTbBTUe0d+ISbvgeel4ZNd8KkPM=",
       "mscorlib.wzkfrp7u5k.wasm": "sha256-9PjsU0gaxxz5Vyw++p9DeYUWLsaXbaMS2RbX6wmTUmk=",
       "netstandard.d82br99ghv.wasm": "sha256-DS8keXxU4eQpa1kIoiFxOA2Ii2g9hoNWSaVi8F8AnIE=",
-      "FitQuest.Client.7fjas7f2tt.wasm": "sha256-LfdAhKL2ZffiaDuIvLK38EoSUeL1PPWkMZfF230Cdk0="
+      "FitQuest.Shared.dgbz7jm8vx.wasm": "sha256-Q+ho70t2RZ/7En3delZYGCnatj0GgU1YDewPbIa+iIM=",
+      "FitQuest.Client.dgx22pvx4g.wasm": "sha256-3YtMf8S4hM0pZ7y6o3YANzbvVIqFlziiCtHpL7htCWw="
     },
     "pdb": {
-      "FitQuest.Client.xy38zswo23.pdb": "sha256-50b5vBcbokXyJcfIO2OkktegPWa16eM+i1pz+1+O+hQ="
+      "FitQuest.Shared.wby3jsk0fd.pdb": "sha256-jPOjeey62pRHUK8ucWafI+PSnHWROjuy0AfwDiTYn0I=",
+      "FitQuest.Client.lup0ponm28.pdb": "sha256-I3TZAy8oZ5DZFubD4eEJ8RS9BCRVvma+Eo4FnodCjiI="
     }
   },
   "cacheBootResources": true,
