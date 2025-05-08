@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using User = FitQuest.Shared.Models.User;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -58,6 +59,9 @@ builder.Services.AddCors(options =>
 // Add services for controllers
 builder.Services.AddControllers();
 builder.Services.AddSignalR(); // Add SignalR services
+builder.Services.AddHostedService<DailyGoalResetService>();
+builder.Services.AddHostedService<ScheduledTaskService>();
+builder.Services.AddSingleton<IEmailSender, MockEmailSender>();
 
 var app = builder.Build();
 

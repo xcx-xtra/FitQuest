@@ -1,78 +1,56 @@
-@page "/admin"
-@inject HttpClient Http
-@using FitQuest.Shared.Models
+@page "/admin-test"
 
-<h2>🔧 Admin Panel</h2>
+<h3>Admin Panel Test</h3>
 
-<h3>👥 Users</h3>
-@if (users == null)
-{
-    <p>Loading users...</p>
-}
-else
-{
-    <ul>
-        @foreach (var u in users)
-        {
-            <li>@u.UserName (@u.Email)</li>
-        }
-    </ul>
-}
+<button @onclick="EventCallback.Factory.Create(this, TestMethod)">Test Button</button>
+<button @onclick="EventCallback.Factory.Create(this, LoadPreviousPage)" disabled="@(!canLoadPrevious)">Previous</button>
+<button @onclick="EventCallback.Factory.Create(this, LoadNextPage)" disabled="@(!canLoadNext)">Next</button>
 
-<h3>🏅 Create Badge</h3>
-<input @bind="newBadge.Name" placeholder="Name" />
-<input @bind="newBadge.Description" placeholder="Description" />
-<input @bind="newBadge.IconUrl" placeholder="Icon URL" />
-<button @onclick="CreateBadge">Create</button>
+<h4>Item List</h4>
+<ul>
+    @foreach (var item in items)
+    {
+        <li>@item</li>
+    }
+</ul>
 
-@if (badges != null)
-{
-    <h4>Existing Badges</h4>
-    <ul>
-        @foreach (var b in badges)
-        {
-            <li>@b.Name <button @onclick="() => DeleteBadge(b.Id)">Delete</button></li>
-        }
-    </ul>
-}
+<h4>Admin Actions</h4>
+<button @onclick="EventCallback.Factory.Create(this, ResetDailyGoals)">Reset Daily Goals</button>
+<button @onclick="EventCallback.Factory.Create(this, SendEmailReminders)">Send Email Reminders</button>
 
 @code {
-    private List<UserDto>? users;
-    private List<Badge>? badges;
-    private BadgeDto newBadge = new();
-
-    protected override async Task OnInitializedAsync()
+    private async Task TestMethod()
     {
-        users = await Http.GetFromJsonAsync<List<UserDto>>("/api/admin/users");
-        badges = await Http.GetFromJsonAsync<List<Badge>>("/api/admin/badges");
+        await Task.CompletedTask;
+        Console.WriteLine("Test button clicked!");
     }
 
-    private async Task CreateBadge()
+    private async Task LoadPreviousPage()
     {
-        var response = await Http.PostAsJsonAsync("/api/admin/badges", newBadge);
-        if (response.IsSuccessStatusCode)
-        {
-            newBadge = new();
-            badges = await Http.GetFromJsonAsync<List<Badge>>("/api/admin/badges");
-        }
+        await Task.CompletedTask;
+        Console.WriteLine("Previous page loaded!");
     }
 
-    private async Task DeleteBadge(int id)
+    private async Task LoadNextPage()
     {
-        await Http.DeleteAsync($"/api/admin/badges/{id}");
-        badges = await Http.GetFromJsonAsync<List<Badge>>("/api/admin/badges");
+        await Task.CompletedTask;
+        Console.WriteLine("Next page loaded!");
     }
 
-    public class UserDto
+    private bool canLoadPrevious = true;
+    private bool canLoadNext = true;
+
+    private List<string> items = new List<string> { "Item 1", "Item 2", "Item 3" };
+
+    private async Task ResetDailyGoals()
     {
-        public string UserName { get; set; } = "";
-        public string Email { get; set; } = "";
+        await Task.CompletedTask;
+        Console.WriteLine("Daily goals reset!");
     }
 
-    public class BadgeDto
+    private async Task SendEmailReminders()
     {
-        public string Name { get; set; } = "";
-        public string Description { get; set; } = "";
-        public string IconUrl { get; set; } = "";
+        await Task.CompletedTask;
+        Console.WriteLine("Email reminders sent!");
     }
 }

@@ -7,4 +7,7 @@ public class DailyGoal
     public string? Description { get; set; }
     public bool IsCompleted { get; set; } = false;
     public DateTime Date { get; set; } = DateTime.UtcNow;
+    public DateTime DueDate { get; set; }
+    public bool IsOverdue { get; set; }
+    public int UserId { get; set; }
 }
