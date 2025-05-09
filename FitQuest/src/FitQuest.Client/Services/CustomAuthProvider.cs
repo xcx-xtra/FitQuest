@@ -1,24 +1,35 @@
 using Microsoft.AspNetCore.Components.Authorization;
 using System.Security.Claims;
+using System.IdentityModel.Tokens.Jwt;
+using FitQuest.Client.Services;
 
 public class CustomAuthProvider : AuthenticationStateProvider
 {
-    private readonly IMockAuthService _authService;
+    private readonly ITokenService _tokenService;
 
-    public CustomAuthProvider(IMockAuthService authService)
+    public CustomAuthProvider(ITokenService tokenService)
     {
-        _authService = authService;
+        _tokenService = tokenService;
     }
 
     public override async Task<AuthenticationState> GetAuthenticationStateAsync()
     {
-        // Simulate retrieving the current user from the mock service
-        var user = await _authService.GetCurrentUserAsync(); // Replace with actual logic to get the current user
-        var identity = new ClaimsIdentity();
+        var token = await _tokenService.GetTokenAsync();
+        ClaimsIdentity identity = new ClaimsIdentity();
 
-        if (user != null)
+        if (!string.IsNullOrEmpty(token))
         {
-            identity = new ClaimsIdentity(new[] { new Claim(ClaimTypes.Name, user.UserName ?? string.Empty) }, "mockService");
+            var handler = new JwtSecurityTokenHandler();
+            try
+            {
+                var jwtToken = handler.ReadJwtToken(token);
+                var claims = jwtToken.Claims;
+                identity = new ClaimsIdentity(claims, "jwt");
+            }
+            catch
+            {
+                // Invalid token, return empty identity
+            }
         }
 
         var userPrincipal = new ClaimsPrincipal(identity);

@@ -1,6 +1,7 @@
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Shared\bin\Debug\net9.0\FitQuest.Shared.deps.json
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Shared\bin\Debug\net9.0\FitQuest.Shared.dll
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Shared\bin\Debug\net9.0\FitQuest.Shared.pdb
+C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Shared\obj\Debug\net9.0\FitQuest.Shared.csproj.AssemblyReference.cache
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Shared\obj\Debug\net9.0\FitQuest.Shared.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Shared\obj\Debug\net9.0\FitQuest.Shared.AssemblyInfoInputs.cache
 C:\Users\Heatn\OneDrive\Desktop\ProJects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Shared\obj\Debug\net9.0\FitQuest.Shared.AssemblyInfo.cs

@@ -1,20 +1,12 @@
-@page "/test"
+@page "/test-component"
 
 <h3>Test Component</h3>
 
-<EditForm Model="testModel">
-    <DataAnnotationsValidator />
-    <ValidationSummary />
-
-    <InputText @bind-Value="testModel.TestField" placeholder="Test Field" />
-    <button type="submit">Submit</button>
-</EditForm>
+<button @onclick="EventCallback.Factory.Create(this, TestMethod)">Click Me</button>
 
 @code {
-    private TestModel testModel = new();
-
-    public class TestModel
+    private void TestMethod()
     {
-        public string? TestField { get; set; }
+        Console.WriteLine("Button clicked!");
     }
 }

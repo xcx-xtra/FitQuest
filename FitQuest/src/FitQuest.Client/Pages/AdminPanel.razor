@@ -1,0 +1,56 @@
+@page "/admin-test"
+
+<h3>Admin Panel Test</h3>
+
+<button @onclick="EventCallback.Factory.Create(this, TestMethod)">Test Button</button>
+<button @onclick="EventCallback.Factory.Create(this, LoadPreviousPage)" disabled="@(!canLoadPrevious)">Previous</button>
+<button @onclick="EventCallback.Factory.Create(this, LoadNextPage)" disabled="@(!canLoadNext)">Next</button>
+
+<h4>Item List</h4>
+<ul>
+    @foreach (var item in items)
+    {
+        <li>@item</li>
+    }
+</ul>
+
+<h4>Admin Actions</h4>
+<button @onclick="EventCallback.Factory.Create(this, ResetDailyGoals)">Reset Daily Goals</button>
+<button @onclick="EventCallback.Factory.Create(this, SendEmailReminders)">Send Email Reminders</button>
+
+@code {
+    private async Task TestMethod()
+    {
+        await Task.CompletedTask;
+        Console.WriteLine("Test button clicked!");
+    }
+
+    private async Task LoadPreviousPage()
+    {
+        await Task.CompletedTask;
+        Console.WriteLine("Previous page loaded!");
+    }
+
+    private async Task LoadNextPage()
+    {
+        await Task.CompletedTask;
+        Console.WriteLine("Next page loaded!");
+    }
+
+    private bool canLoadPrevious = true;
+    private bool canLoadNext = true;
+
+    private List<string> items = new List<string> { "Item 1", "Item 2", "Item 3" };
+
+    private async Task ResetDailyGoals()
+    {
+        await Task.CompletedTask;
+        Console.WriteLine("Daily goals reset!");
+    }
+
+    private async Task SendEmailReminders()
+    {
+        await Task.CompletedTask;
+        Console.WriteLine("Email reminders sent!");
+    }
+}

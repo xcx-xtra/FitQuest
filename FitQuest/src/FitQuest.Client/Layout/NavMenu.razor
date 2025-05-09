@@ -24,8 +24,18 @@
     </nav>
 </div>
 
+@if (isAdmin)
+{
+    <li class="nav-item px-3">
+        <NavLink class="nav-link" href="/admin" Match="NavLinkMatch.All">
+            <span class="oi oi-dashboard" aria-hidden="true"></span> Admin
+        </NavLink>
+    </li>
+}
+
 @code {
     private bool collapseNavMenu = true;
+    private bool isAdmin;
 
     private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
@@ -36,10 +46,18 @@
 
     [Inject] public required IJSRuntime JS { get; set; } = default!;
     [Inject] public required NavigationManager Nav { get; set; } = default!;
+    @inject AuthenticationStateProvider AuthenticationStateProvider
 
     private async Task Logout()
     {
         await JS.InvokeVoidAsync("localStorage.removeItem", "authToken");
         Nav.NavigateTo("/login", forceLoad: true);
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+        isAdmin = user.IsInRole("Admin");
     }
 }

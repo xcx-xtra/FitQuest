@@ -6,6 +6,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using User = FitQuest.Shared.Models.User;
 
 namespace FitQuest.Api
 {
@@ -79,10 +80,5 @@ namespace FitQuest.Api
     {
         public required string Username { get; set; }
         public required string Password { get; set; }
-    }
-
-    public class User : IdentityUser<int>
-    {
-        // Additional properties can be added here if needed
     }
 }
