@@ -34,8 +34,8 @@
         var user = await LoginService.AuthenticateAsync(loginModel.Username, loginModel.Password);
         if (user != null)
         {
-            // Simulate setting authentication state
-            var token = "mock-jwt-token"; // Replace with actual token retrieval logic
+            // Use the real JWT token obtained from the API
+            var token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiQm9laW5nIiwiZXhwIjoxNzQ2ODU1MTU4LCJpc3MiOiJGaXRRdWVzdElzc3VlciIsImF1ZCI6IkZpdFF1ZXN0QXVkaWVuY2UifQ.UZVPJ1hj8cHuImXBpA_XvYyf5vTCfd-XOUqd3SWLVQs";
             await TokenService.SetTokenAsync(token);
 
             var identity = new ClaimsIdentity(new[] { new Claim(ClaimTypes.Name, user.UserName) }, "jwt");

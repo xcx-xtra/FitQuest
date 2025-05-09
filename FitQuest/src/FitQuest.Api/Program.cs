@@ -40,6 +40,21 @@ builder.Services.AddAuthentication(options => {
         ValidAudience = jwtAudience,
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey))
     };
+    
+    // Configure JWT Bearer Auth for SignalR
+    opts.Events = new JwtBearerEvents
+    {
+        OnMessageReceived = context =>
+        {
+            var accessToken = context.Request.Query["access_token"];
+            var path = context.HttpContext.Request.Path;
+            if (!string.IsNullOrEmpty(accessToken) && path.StartsWithSegments("/leaderboardHub"))
+            {
+                context.Token = accessToken;
+            }
+            return Task.CompletedTask;
+        }
+    };
 });
 
 builder.Services.AddAuthorization();
@@ -47,12 +62,12 @@ builder.Services.AddAuthorization();
 // Add CORS policy
 builder.Services.AddCors(options =>
 {
-    options.AddDefaultPolicy(policy =>
+    options.AddPolicy("MyAllowSpecificOrigins", policy =>
     {
-        policy.WithOrigins("http://localhost:5124") // Replace with your allowed origins
+        policy.WithOrigins("http://localhost:5174")
               .AllowAnyMethod()
               .AllowAnyHeader()
-              .AllowCredentials(); // Allow WebSocket connections
+              .AllowCredentials();
     });
 });
 
@@ -65,13 +80,8 @@ builder.Services.AddSingleton<IEmailSender, MockEmailSender>();
 
 var app = builder.Build();
 
-// Ensure the database is created explicitly for SQLite
-using (var scope = app.Services.CreateScope())
-{
-    var dbContext = scope.ServiceProvider.GetRequiredService<FitQuestContext>();
-    dbContext.Database.EnsureCreated();
-    Console.WriteLine("Database has been ensured to exist.");
-}
+// Apply CORS before other middleware
+app.UseCors("MyAllowSpecificOrigins");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -82,9 +92,6 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
-
-// Apply CORS policy
-app.UseCors();
 
 var summaries = new[]
 {

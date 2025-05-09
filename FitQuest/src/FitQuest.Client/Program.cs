@@ -16,6 +16,6 @@ builder.Services.AddScoped<IMockAuthService, MockAuthService>();
 builder.Services.AddScoped<ILoginService, MockAuthService>();
 builder.Services.AddScoped<GoalService>();
 builder.Services.AddScoped<PointService>();
-builder.Services.AddSingleton<LeaderboardService>();
+builder.Services.AddScoped<LeaderboardService>();
 
 await builder.Build().RunAsync();

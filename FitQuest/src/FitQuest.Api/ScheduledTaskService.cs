@@ -3,7 +3,6 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using FitQuest.Api.Data; // Adjust the namespace according to your project structure
 
 namespace FitQuest.Api
 {
