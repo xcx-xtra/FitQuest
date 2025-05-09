@@ -30,8 +30,8 @@ A gamified fitness challenge tracker built with Blazor WebAssembly and ASP.NET C
 - ✅ Set daily fitness goals
 - ✅ Earn points and view point history
 - ✅ Dashboard showing total points and event log
-- 🛠️ Real-time leaderboard using SignalR (coming)
-- 🛠️ Admin panel to manage badges & challenges (coming)
+- ✅ Real-time leaderboard using SignalR (coming)
+- ✅ Admin panel to manage badges & challenges (coming)
 - 🛠️ Azure deployment setup (coming)
 
 ---
