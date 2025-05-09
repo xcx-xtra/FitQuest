@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "S/vLykuFMw6SaGi4HIPqMq36/7l9OdLm1hb9Cbz2voA=",
+  "Hash": "/2YBHn8omwkDO8fy/CGOFVHBB3Ydl93ECBkTkDeqA+w=",
   "Source": "FitQuest.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "ix1fg8cbk9",
-      "Integrity": "epg8Zno2qqG3qlfB/bAHs9+gp7sAnX45dpeuujVI3yQ=",
+      "Fingerprint": "m9rr49ak1z",
+      "Integrity": "yqoatSbdBKwHzLW31vA8a5E7ME0wVHZPbuCdAaaELAs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -199,8 +199,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "m4egtdsqha",
-      "Integrity": "hnwOxHImfsk+CY1rXL/HozAveBiTs5DnBpCXELbX8PU=",
+      "Fingerprint": "0wn4s016er",
+      "Integrity": "8H0/BAZ3vkMREP8d81+m69g3trVBXooU0SkKXu2lQ3E=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\FitQuest.Client.pdb"
@@ -220,8 +220,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "kbcmmpsigk",
-      "Integrity": "4AE0pSZ0eCotdCWvsliYd+4Rynf6CyWlEzc1vxxgGUM=",
+      "Fingerprint": "zhlegx1mgh",
+      "Integrity": "VygA6q44B95eqGzua1wI7JQTC8ZOmll2EF04j9pPaAU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\webcil\\FitQuest.Client.wasm"
@@ -241,8 +241,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "s1n1xvefja",
-      "Integrity": "EJhT7Zf/5TyqWWl/Cwj893y+B2gX8JzlCb8HBYSaWlk=",
+      "Fingerprint": "f3eno5blov",
+      "Integrity": "G+NB+5luC89BBUtd2Bi/G/+1rH1zQ18of1AkTEUBBXk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Shared\\bin\\Debug\\net9.0\\FitQuest.Shared.pdb"
@@ -262,8 +262,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "5ocns1vpq9",
-      "Integrity": "5Q9OkNxv0nUDtJgSdB6PtzIIFXR0kvEe5t/DhL4EuTE=",
+      "Fingerprint": "f8alijw977",
+      "Integrity": "D+VrrGFKDss0/8umPCrp04AsQGP0PGRS9be2fZ6AAuU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\webcil\\FitQuest.Shared.wasm"
@@ -6800,12 +6800,12 @@
       "OriginalItemSpec": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authentication.Cookies.wasm"
     },
     {
-      "Identity": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\9ichiyaowi-s1n1xvefja.gz",
+      "Identity": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\9ichiyaowi-f3eno5blov.gz",
       "SourceId": "FitQuest.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/FitQuest.Shared#[.{fingerprint=s1n1xvefja}]!.pdb.gz",
+      "RelativePath": "_framework/FitQuest.Shared#[.{fingerprint=f3eno5blov}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6814,8 +6814,8 @@
       "RelatedAsset": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\FitQuest.Shared.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "iwy0zoba5m",
-      "Integrity": "skNSJJxWRzET0GPY7EoUk9YQ9XfWzeUvKNUeckvubok=",
+      "Fingerprint": "vtopeuexj5",
+      "Integrity": "DZCX4GUDpETpUTEp7DY5GBHNW6BTBv2Eh/5NBKWKXyw=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\FitQuest.Shared.pdb"
@@ -6947,12 +6947,12 @@
       "OriginalItemSpec": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\a93h1bb0o6-m4egtdsqha.gz",
+      "Identity": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\a93h1bb0o6-0wn4s016er.gz",
       "SourceId": "FitQuest.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/FitQuest.Client#[.{fingerprint=m4egtdsqha}]!.pdb.gz",
+      "RelativePath": "_framework/FitQuest.Client#[.{fingerprint=0wn4s016er}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6961,8 +6961,8 @@
       "RelatedAsset": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\FitQuest.Client.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "gaqmvs54en",
-      "Integrity": "mO2ykI7sltVDiCZ4UmknJS5QAlWiNXytqWTEN8qbpWk=",
+      "Fingerprint": "c4amfaxxm0",
+      "Integrity": "RPxXHV/3kJalPibcsAgx0QNau0raI5yn/5NrnNb+o5A=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\FitQuest.Client.pdb"
@@ -7115,7 +7115,7 @@
       "OriginalItemSpec": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Net.ServicePoint.wasm"
     },
     {
-      "Identity": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\bwz2kfzyiz-ix1fg8cbk9.gz",
+      "Identity": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\bwz2kfzyiz-m9rr49ak1z.gz",
       "SourceId": "FitQuest.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\",
@@ -7129,8 +7129,8 @@
       "RelatedAsset": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "5yrjjd1ado",
-      "Integrity": "wxQGyO6SGP6GMKMq8+DWorY04tO1FceydMSgytbQhoI=",
+      "Fingerprint": "rtsfmsysty",
+      "Integrity": "ryWdMQ239SkASTmNpn+FV179SX8+75W5TZ8FNT2woIk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -7304,12 +7304,12 @@
       "OriginalItemSpec": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.IdentityModel.JsonWebTokens.wasm"
     },
     {
-      "Identity": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\d7ufhts9q2-5ocns1vpq9.gz",
+      "Identity": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\d7ufhts9q2-f8alijw977.gz",
       "SourceId": "FitQuest.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/FitQuest.Shared#[.{fingerprint=5ocns1vpq9}]!.wasm.gz",
+      "RelativePath": "_framework/FitQuest.Shared#[.{fingerprint=f8alijw977}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7318,8 +7318,8 @@
       "RelatedAsset": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\FitQuest.Shared.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "zza9luqm6l",
-      "Integrity": "7ywb1+S7hbAo1Xc7Kb4Ru+MOswMMI+s655YD8eDhRDs=",
+      "Fingerprint": "r47fa6px9f",
+      "Integrity": "JTxxkCrLH2/lvzuoYnLsK4nsi87OVXOc/U/kHt35Y8Q=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\FitQuest.Shared.wasm"
@@ -7682,12 +7682,12 @@
       "OriginalItemSpec": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Linq.Queryable.wasm"
     },
     {
-      "Identity": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\evoywo8fe8-kbcmmpsigk.gz",
+      "Identity": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\evoywo8fe8-zhlegx1mgh.gz",
       "SourceId": "FitQuest.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/FitQuest.Client#[.{fingerprint=kbcmmpsigk}]!.wasm.gz",
+      "RelativePath": "_framework/FitQuest.Client#[.{fingerprint=zhlegx1mgh}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7696,8 +7696,8 @@
       "RelatedAsset": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\FitQuest.Client.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "1j9ky85bv0",
-      "Integrity": "wwC+O5LXTr6+Ig+338zdpJOf14MubLi6A3GpsYaxTxk=",
+      "Fingerprint": "3om523as5f",
+      "Integrity": "A9BdtZt6SGh5OSa2hJMy4hv7oGjD2OE6MRH81R7MwwQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\FitQuest.Client.wasm"
@@ -12721,11 +12721,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"epg8Zno2qqG3qlfB/bAHs9+gp7sAnX45dpeuujVI3yQ=\""
+          "Value": "\"yqoatSbdBKwHzLW31vA8a5E7ME0wVHZPbuCdAaaELAs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 05:12:00 GMT"
+          "Value": "Fri, 09 May 2025 05:43:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12735,18 +12735,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-epg8Zno2qqG3qlfB/bAHs9+gp7sAnX45dpeuujVI3yQ="
+          "Value": "sha256-yqoatSbdBKwHzLW31vA8a5E7ME0wVHZPbuCdAaaELAs="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\bwz2kfzyiz-ix1fg8cbk9.gz",
+      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\bwz2kfzyiz-m9rr49ak1z.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000065651261"
+          "Quality": "0.000065634025"
         }
       ],
       "ResponseHeaders": [
@@ -12756,15 +12756,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15231"
+          "Value": "15235"
         },
         {
           "Name": "ETag",
-          "Value": "\"wxQGyO6SGP6GMKMq8+DWorY04tO1FceydMSgytbQhoI=\""
+          "Value": "\"ryWdMQ239SkASTmNpn+FV179SX8+75W5TZ8FNT2woIk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 05:07:49 GMT"
+          "Value": "Fri, 09 May 2025 05:43:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12784,19 +12784,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"epg8Zno2qqG3qlfB/bAHs9+gp7sAnX45dpeuujVI3yQ=\""
+          "Value": "W/\"yqoatSbdBKwHzLW31vA8a5E7ME0wVHZPbuCdAaaELAs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-epg8Zno2qqG3qlfB/bAHs9+gp7sAnX45dpeuujVI3yQ="
+          "Value": "sha256-yqoatSbdBKwHzLW31vA8a5E7ME0wVHZPbuCdAaaELAs="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\bwz2kfzyiz-ix1fg8cbk9.gz",
+      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\bwz2kfzyiz-m9rr49ak1z.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12805,7 +12805,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15231"
+          "Value": "15235"
         },
         {
           "Name": "Content-Type",
@@ -12813,11 +12813,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wxQGyO6SGP6GMKMq8+DWorY04tO1FceydMSgytbQhoI=\""
+          "Value": "\"ryWdMQ239SkASTmNpn+FV179SX8+75W5TZ8FNT2woIk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 05:07:49 GMT"
+          "Value": "Fri, 09 May 2025 05:43:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12835,7 +12835,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wxQGyO6SGP6GMKMq8+DWorY04tO1FceydMSgytbQhoI="
+          "Value": "sha256-ryWdMQ239SkASTmNpn+FV179SX8+75W5TZ8FNT2woIk="
         }
       ]
     },
@@ -14765,168 +14765,7 @@
       ]
     },
     {
-      "Route": "_framework/FitQuest.Client.kbcmmpsigk.wasm",
-      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\FitQuest.Client.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "56085"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4AE0pSZ0eCotdCWvsliYd+4Rynf6CyWlEzc1vxxgGUM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 05:11:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "kbcmmpsigk"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/FitQuest.Client.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-4AE0pSZ0eCotdCWvsliYd+4Rynf6CyWlEzc1vxxgGUM="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/FitQuest.Client.kbcmmpsigk.wasm",
-      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\evoywo8fe8-kbcmmpsigk.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000042202996"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "23694"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wwC+O5LXTr6+Ig+338zdpJOf14MubLi6A3GpsYaxTxk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 05:12:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"4AE0pSZ0eCotdCWvsliYd+4Rynf6CyWlEzc1vxxgGUM=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "kbcmmpsigk"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/FitQuest.Client.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-4AE0pSZ0eCotdCWvsliYd+4Rynf6CyWlEzc1vxxgGUM="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/FitQuest.Client.kbcmmpsigk.wasm.gz",
-      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\evoywo8fe8-kbcmmpsigk.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "23694"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wwC+O5LXTr6+Ig+338zdpJOf14MubLi6A3GpsYaxTxk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 05:12:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "kbcmmpsigk"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/FitQuest.Client.wasm.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-wwC+O5LXTr6+Ig+338zdpJOf14MubLi6A3GpsYaxTxk="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/FitQuest.Client.m4egtdsqha.pdb",
+      "Route": "_framework/FitQuest.Client.0wn4s016er.pdb",
       "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\FitQuest.Client.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -14936,7 +14775,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "44972"
+          "Value": "45180"
         },
         {
           "Name": "Content-Type",
@@ -14944,11 +14783,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hnwOxHImfsk+CY1rXL/HozAveBiTs5DnBpCXELbX8PU=\""
+          "Value": "\"8H0/BAZ3vkMREP8d81+m69g3trVBXooU0SkKXu2lQ3E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 05:11:59 GMT"
+          "Value": "Fri, 09 May 2025 05:39:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14958,7 +14797,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "m4egtdsqha"
+          "Value": "0wn4s016er"
         },
         {
           "Name": "label",
@@ -14966,18 +14805,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hnwOxHImfsk+CY1rXL/HozAveBiTs5DnBpCXELbX8PU="
+          "Value": "sha256-8H0/BAZ3vkMREP8d81+m69g3trVBXooU0SkKXu2lQ3E="
         }
       ]
     },
     {
-      "Route": "_framework/FitQuest.Client.m4egtdsqha.pdb",
-      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\a93h1bb0o6-m4egtdsqha.gz",
+      "Route": "_framework/FitQuest.Client.0wn4s016er.pdb",
+      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\a93h1bb0o6-0wn4s016er.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000031028919"
+          "Quality": "0.000030813792"
         }
       ],
       "ResponseHeaders": [
@@ -14987,15 +14826,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "32227"
+          "Value": "32452"
         },
         {
           "Name": "ETag",
-          "Value": "\"mO2ykI7sltVDiCZ4UmknJS5QAlWiNXytqWTEN8qbpWk=\""
+          "Value": "\"RPxXHV/3kJalPibcsAgx0QNau0raI5yn/5NrnNb+o5A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 05:12:01 GMT"
+          "Value": "Fri, 09 May 2025 05:39:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15015,13 +14854,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"hnwOxHImfsk+CY1rXL/HozAveBiTs5DnBpCXELbX8PU=\""
+          "Value": "W/\"8H0/BAZ3vkMREP8d81+m69g3trVBXooU0SkKXu2lQ3E=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "m4egtdsqha"
+          "Value": "0wn4s016er"
         },
         {
           "Name": "label",
@@ -15029,13 +14868,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hnwOxHImfsk+CY1rXL/HozAveBiTs5DnBpCXELbX8PU="
+          "Value": "sha256-8H0/BAZ3vkMREP8d81+m69g3trVBXooU0SkKXu2lQ3E="
         }
       ]
     },
     {
-      "Route": "_framework/FitQuest.Client.m4egtdsqha.pdb.gz",
-      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\a93h1bb0o6-m4egtdsqha.gz",
+      "Route": "_framework/FitQuest.Client.0wn4s016er.pdb.gz",
+      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\a93h1bb0o6-0wn4s016er.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15044,7 +14883,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "32227"
+          "Value": "32452"
         },
         {
           "Name": "Content-Type",
@@ -15052,11 +14891,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mO2ykI7sltVDiCZ4UmknJS5QAlWiNXytqWTEN8qbpWk=\""
+          "Value": "\"RPxXHV/3kJalPibcsAgx0QNau0raI5yn/5NrnNb+o5A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 05:12:01 GMT"
+          "Value": "Fri, 09 May 2025 05:39:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15074,7 +14913,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "m4egtdsqha"
+          "Value": "0wn4s016er"
         },
         {
           "Name": "label",
@@ -15082,7 +14921,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-mO2ykI7sltVDiCZ4UmknJS5QAlWiNXytqWTEN8qbpWk="
+          "Value": "sha256-RPxXHV/3kJalPibcsAgx0QNau0raI5yn/5NrnNb+o5A="
         }
       ]
     },
@@ -15097,7 +14936,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "44972"
+          "Value": "45180"
         },
         {
           "Name": "Content-Type",
@@ -15105,11 +14944,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hnwOxHImfsk+CY1rXL/HozAveBiTs5DnBpCXELbX8PU=\""
+          "Value": "\"8H0/BAZ3vkMREP8d81+m69g3trVBXooU0SkKXu2lQ3E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 05:11:59 GMT"
+          "Value": "Fri, 09 May 2025 05:39:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15119,18 +14958,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hnwOxHImfsk+CY1rXL/HozAveBiTs5DnBpCXELbX8PU="
+          "Value": "sha256-8H0/BAZ3vkMREP8d81+m69g3trVBXooU0SkKXu2lQ3E="
         }
       ]
     },
     {
       "Route": "_framework/FitQuest.Client.pdb",
-      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\a93h1bb0o6-m4egtdsqha.gz",
+      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\a93h1bb0o6-0wn4s016er.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000031028919"
+          "Quality": "0.000030813792"
         }
       ],
       "ResponseHeaders": [
@@ -15140,15 +14979,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "32227"
+          "Value": "32452"
         },
         {
           "Name": "ETag",
-          "Value": "\"mO2ykI7sltVDiCZ4UmknJS5QAlWiNXytqWTEN8qbpWk=\""
+          "Value": "\"RPxXHV/3kJalPibcsAgx0QNau0raI5yn/5NrnNb+o5A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 05:12:01 GMT"
+          "Value": "Fri, 09 May 2025 05:39:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15168,19 +15007,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"hnwOxHImfsk+CY1rXL/HozAveBiTs5DnBpCXELbX8PU=\""
+          "Value": "W/\"8H0/BAZ3vkMREP8d81+m69g3trVBXooU0SkKXu2lQ3E=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hnwOxHImfsk+CY1rXL/HozAveBiTs5DnBpCXELbX8PU="
+          "Value": "sha256-8H0/BAZ3vkMREP8d81+m69g3trVBXooU0SkKXu2lQ3E="
         }
       ]
     },
     {
       "Route": "_framework/FitQuest.Client.pdb.gz",
-      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\a93h1bb0o6-m4egtdsqha.gz",
+      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\a93h1bb0o6-0wn4s016er.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15189,7 +15028,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "32227"
+          "Value": "32452"
         },
         {
           "Name": "Content-Type",
@@ -15197,11 +15036,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mO2ykI7sltVDiCZ4UmknJS5QAlWiNXytqWTEN8qbpWk=\""
+          "Value": "\"RPxXHV/3kJalPibcsAgx0QNau0raI5yn/5NrnNb+o5A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 05:12:01 GMT"
+          "Value": "Fri, 09 May 2025 05:39:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15219,7 +15058,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mO2ykI7sltVDiCZ4UmknJS5QAlWiNXytqWTEN8qbpWk="
+          "Value": "sha256-RPxXHV/3kJalPibcsAgx0QNau0raI5yn/5NrnNb+o5A="
         }
       ]
     },
@@ -15234,7 +15073,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "56085"
+          "Value": "56597"
         },
         {
           "Name": "Content-Type",
@@ -15242,11 +15081,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4AE0pSZ0eCotdCWvsliYd+4Rynf6CyWlEzc1vxxgGUM=\""
+          "Value": "\"VygA6q44B95eqGzua1wI7JQTC8ZOmll2EF04j9pPaAU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 05:11:59 GMT"
+          "Value": "Fri, 09 May 2025 05:39:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15256,18 +15095,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4AE0pSZ0eCotdCWvsliYd+4Rynf6CyWlEzc1vxxgGUM="
+          "Value": "sha256-VygA6q44B95eqGzua1wI7JQTC8ZOmll2EF04j9pPaAU="
         }
       ]
     },
     {
       "Route": "_framework/FitQuest.Client.wasm",
-      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\evoywo8fe8-kbcmmpsigk.gz",
+      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\evoywo8fe8-zhlegx1mgh.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000042202996"
+          "Quality": "0.000041647578"
         }
       ],
       "ResponseHeaders": [
@@ -15277,15 +15116,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23694"
+          "Value": "24010"
         },
         {
           "Name": "ETag",
-          "Value": "\"wwC+O5LXTr6+Ig+338zdpJOf14MubLi6A3GpsYaxTxk=\""
+          "Value": "\"A9BdtZt6SGh5OSa2hJMy4hv7oGjD2OE6MRH81R7MwwQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 05:12:01 GMT"
+          "Value": "Fri, 09 May 2025 05:39:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15305,19 +15144,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"4AE0pSZ0eCotdCWvsliYd+4Rynf6CyWlEzc1vxxgGUM=\""
+          "Value": "W/\"VygA6q44B95eqGzua1wI7JQTC8ZOmll2EF04j9pPaAU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4AE0pSZ0eCotdCWvsliYd+4Rynf6CyWlEzc1vxxgGUM="
+          "Value": "sha256-VygA6q44B95eqGzua1wI7JQTC8ZOmll2EF04j9pPaAU="
         }
       ]
     },
     {
       "Route": "_framework/FitQuest.Client.wasm.gz",
-      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\evoywo8fe8-kbcmmpsigk.gz",
+      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\evoywo8fe8-zhlegx1mgh.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15326,7 +15165,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23694"
+          "Value": "24010"
         },
         {
           "Name": "Content-Type",
@@ -15334,11 +15173,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wwC+O5LXTr6+Ig+338zdpJOf14MubLi6A3GpsYaxTxk=\""
+          "Value": "\"A9BdtZt6SGh5OSa2hJMy4hv7oGjD2OE6MRH81R7MwwQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 05:12:01 GMT"
+          "Value": "Fri, 09 May 2025 05:39:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15356,13 +15195,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wwC+O5LXTr6+Ig+338zdpJOf14MubLi6A3GpsYaxTxk="
+          "Value": "sha256-A9BdtZt6SGh5OSa2hJMy4hv7oGjD2OE6MRH81R7MwwQ="
         }
       ]
     },
     {
-      "Route": "_framework/FitQuest.Shared.5ocns1vpq9.wasm",
-      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\FitQuest.Shared.wasm",
+      "Route": "_framework/FitQuest.Client.zhlegx1mgh.wasm",
+      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\FitQuest.Client.wasm",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15371,7 +15210,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9493"
+          "Value": "56597"
         },
         {
           "Name": "Content-Type",
@@ -15379,11 +15218,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5Q9OkNxv0nUDtJgSdB6PtzIIFXR0kvEe5t/DhL4EuTE=\""
+          "Value": "\"VygA6q44B95eqGzua1wI7JQTC8ZOmll2EF04j9pPaAU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 04:41:24 GMT"
+          "Value": "Fri, 09 May 2025 05:39:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15393,26 +15232,26 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5ocns1vpq9"
+          "Value": "zhlegx1mgh"
         },
         {
           "Name": "label",
-          "Value": "_framework/FitQuest.Shared.wasm"
+          "Value": "_framework/FitQuest.Client.wasm"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-5Q9OkNxv0nUDtJgSdB6PtzIIFXR0kvEe5t/DhL4EuTE="
+          "Value": "sha256-VygA6q44B95eqGzua1wI7JQTC8ZOmll2EF04j9pPaAU="
         }
       ]
     },
     {
-      "Route": "_framework/FitQuest.Shared.5ocns1vpq9.wasm",
-      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\d7ufhts9q2-5ocns1vpq9.gz",
+      "Route": "_framework/FitQuest.Client.zhlegx1mgh.wasm",
+      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\evoywo8fe8-zhlegx1mgh.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000254777070"
+          "Quality": "0.000041647578"
         }
       ],
       "ResponseHeaders": [
@@ -15422,15 +15261,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3924"
+          "Value": "24010"
         },
         {
           "Name": "ETag",
-          "Value": "\"7ywb1+S7hbAo1Xc7Kb4Ru+MOswMMI+s655YD8eDhRDs=\""
+          "Value": "\"A9BdtZt6SGh5OSa2hJMy4hv7oGjD2OE6MRH81R7MwwQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 04:41:25 GMT"
+          "Value": "Fri, 09 May 2025 05:39:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15450,27 +15289,27 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"5Q9OkNxv0nUDtJgSdB6PtzIIFXR0kvEe5t/DhL4EuTE=\""
+          "Value": "W/\"VygA6q44B95eqGzua1wI7JQTC8ZOmll2EF04j9pPaAU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5ocns1vpq9"
+          "Value": "zhlegx1mgh"
         },
         {
           "Name": "label",
-          "Value": "_framework/FitQuest.Shared.wasm"
+          "Value": "_framework/FitQuest.Client.wasm"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-5Q9OkNxv0nUDtJgSdB6PtzIIFXR0kvEe5t/DhL4EuTE="
+          "Value": "sha256-VygA6q44B95eqGzua1wI7JQTC8ZOmll2EF04j9pPaAU="
         }
       ]
     },
     {
-      "Route": "_framework/FitQuest.Shared.5ocns1vpq9.wasm.gz",
-      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\d7ufhts9q2-5ocns1vpq9.gz",
+      "Route": "_framework/FitQuest.Client.zhlegx1mgh.wasm.gz",
+      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\evoywo8fe8-zhlegx1mgh.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15479,7 +15318,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3924"
+          "Value": "24010"
         },
         {
           "Name": "Content-Type",
@@ -15487,11 +15326,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7ywb1+S7hbAo1Xc7Kb4Ru+MOswMMI+s655YD8eDhRDs=\""
+          "Value": "\"A9BdtZt6SGh5OSa2hJMy4hv7oGjD2OE6MRH81R7MwwQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 04:41:25 GMT"
+          "Value": "Fri, 09 May 2025 05:39:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15509,20 +15348,20 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5ocns1vpq9"
+          "Value": "zhlegx1mgh"
         },
         {
           "Name": "label",
-          "Value": "_framework/FitQuest.Shared.wasm.gz"
+          "Value": "_framework/FitQuest.Client.wasm.gz"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-7ywb1+S7hbAo1Xc7Kb4Ru+MOswMMI+s655YD8eDhRDs="
+          "Value": "sha256-A9BdtZt6SGh5OSa2hJMy4hv7oGjD2OE6MRH81R7MwwQ="
         }
       ]
     },
     {
-      "Route": "_framework/FitQuest.Shared.pdb",
+      "Route": "_framework/FitQuest.Shared.f3eno5blov.pdb",
       "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\FitQuest.Shared.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -15540,148 +15379,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EJhT7Zf/5TyqWWl/Cwj893y+B2gX8JzlCb8HBYSaWlk=\""
+          "Value": "\"G+NB+5luC89BBUtd2Bi/G/+1rH1zQ18of1AkTEUBBXk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 04:40:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-EJhT7Zf/5TyqWWl/Cwj893y+B2gX8JzlCb8HBYSaWlk="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/FitQuest.Shared.pdb",
-      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\9ichiyaowi-s1n1xvefja.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000114718366"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8716"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"skNSJJxWRzET0GPY7EoUk9YQ9XfWzeUvKNUeckvubok=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 04:41:25 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"EJhT7Zf/5TyqWWl/Cwj893y+B2gX8JzlCb8HBYSaWlk=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-EJhT7Zf/5TyqWWl/Cwj893y+B2gX8JzlCb8HBYSaWlk="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/FitQuest.Shared.pdb.gz",
-      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\9ichiyaowi-s1n1xvefja.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8716"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"skNSJJxWRzET0GPY7EoUk9YQ9XfWzeUvKNUeckvubok=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 04:41:25 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-skNSJJxWRzET0GPY7EoUk9YQ9XfWzeUvKNUeckvubok="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/FitQuest.Shared.s1n1xvefja.pdb",
-      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\FitQuest.Shared.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "16120"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"EJhT7Zf/5TyqWWl/Cwj893y+B2gX8JzlCb8HBYSaWlk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 04:40:48 GMT"
+          "Value": "Fri, 09 May 2025 05:39:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15691,7 +15393,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "s1n1xvefja"
+          "Value": "f3eno5blov"
         },
         {
           "Name": "label",
@@ -15699,18 +15401,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-EJhT7Zf/5TyqWWl/Cwj893y+B2gX8JzlCb8HBYSaWlk="
+          "Value": "sha256-G+NB+5luC89BBUtd2Bi/G/+1rH1zQ18of1AkTEUBBXk="
         }
       ]
     },
     {
-      "Route": "_framework/FitQuest.Shared.s1n1xvefja.pdb",
-      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\9ichiyaowi-s1n1xvefja.gz",
+      "Route": "_framework/FitQuest.Shared.f3eno5blov.pdb",
+      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\9ichiyaowi-f3eno5blov.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000114718366"
+          "Quality": "0.000114705208"
         }
       ],
       "ResponseHeaders": [
@@ -15720,15 +15422,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8716"
+          "Value": "8717"
         },
         {
           "Name": "ETag",
-          "Value": "\"skNSJJxWRzET0GPY7EoUk9YQ9XfWzeUvKNUeckvubok=\""
+          "Value": "\"DZCX4GUDpETpUTEp7DY5GBHNW6BTBv2Eh/5NBKWKXyw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 04:41:25 GMT"
+          "Value": "Fri, 09 May 2025 05:39:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15748,13 +15450,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"EJhT7Zf/5TyqWWl/Cwj893y+B2gX8JzlCb8HBYSaWlk=\""
+          "Value": "W/\"G+NB+5luC89BBUtd2Bi/G/+1rH1zQ18of1AkTEUBBXk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "s1n1xvefja"
+          "Value": "f3eno5blov"
         },
         {
           "Name": "label",
@@ -15762,13 +15464,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-EJhT7Zf/5TyqWWl/Cwj893y+B2gX8JzlCb8HBYSaWlk="
+          "Value": "sha256-G+NB+5luC89BBUtd2Bi/G/+1rH1zQ18of1AkTEUBBXk="
         }
       ]
     },
     {
-      "Route": "_framework/FitQuest.Shared.s1n1xvefja.pdb.gz",
-      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\9ichiyaowi-s1n1xvefja.gz",
+      "Route": "_framework/FitQuest.Shared.f3eno5blov.pdb.gz",
+      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\9ichiyaowi-f3eno5blov.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15777,7 +15479,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8716"
+          "Value": "8717"
         },
         {
           "Name": "Content-Type",
@@ -15785,11 +15487,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"skNSJJxWRzET0GPY7EoUk9YQ9XfWzeUvKNUeckvubok=\""
+          "Value": "\"DZCX4GUDpETpUTEp7DY5GBHNW6BTBv2Eh/5NBKWKXyw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 04:41:25 GMT"
+          "Value": "Fri, 09 May 2025 05:39:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15807,7 +15509,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "s1n1xvefja"
+          "Value": "f3eno5blov"
         },
         {
           "Name": "label",
@@ -15815,7 +15517,305 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-skNSJJxWRzET0GPY7EoUk9YQ9XfWzeUvKNUeckvubok="
+          "Value": "sha256-DZCX4GUDpETpUTEp7DY5GBHNW6BTBv2Eh/5NBKWKXyw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FitQuest.Shared.f8alijw977.wasm",
+      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\FitQuest.Shared.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9493"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D+VrrGFKDss0/8umPCrp04AsQGP0PGRS9be2fZ6AAuU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 05:39:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f8alijw977"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/FitQuest.Shared.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-D+VrrGFKDss0/8umPCrp04AsQGP0PGRS9be2fZ6AAuU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FitQuest.Shared.f8alijw977.wasm",
+      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\d7ufhts9q2-f8alijw977.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000254906959"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3922"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JTxxkCrLH2/lvzuoYnLsK4nsi87OVXOc/U/kHt35Y8Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 05:39:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"D+VrrGFKDss0/8umPCrp04AsQGP0PGRS9be2fZ6AAuU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f8alijw977"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/FitQuest.Shared.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-D+VrrGFKDss0/8umPCrp04AsQGP0PGRS9be2fZ6AAuU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FitQuest.Shared.f8alijw977.wasm.gz",
+      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\d7ufhts9q2-f8alijw977.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3922"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JTxxkCrLH2/lvzuoYnLsK4nsi87OVXOc/U/kHt35Y8Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 05:39:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f8alijw977"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/FitQuest.Shared.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JTxxkCrLH2/lvzuoYnLsK4nsi87OVXOc/U/kHt35Y8Q="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FitQuest.Shared.pdb",
+      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\FitQuest.Shared.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16120"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+NB+5luC89BBUtd2Bi/G/+1rH1zQ18of1AkTEUBBXk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 05:39:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+NB+5luC89BBUtd2Bi/G/+1rH1zQ18of1AkTEUBBXk="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FitQuest.Shared.pdb",
+      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\9ichiyaowi-f3eno5blov.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000114705208"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8717"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DZCX4GUDpETpUTEp7DY5GBHNW6BTBv2Eh/5NBKWKXyw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 05:39:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"G+NB+5luC89BBUtd2Bi/G/+1rH1zQ18of1AkTEUBBXk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+NB+5luC89BBUtd2Bi/G/+1rH1zQ18of1AkTEUBBXk="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FitQuest.Shared.pdb.gz",
+      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\9ichiyaowi-f3eno5blov.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8717"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DZCX4GUDpETpUTEp7DY5GBHNW6BTBv2Eh/5NBKWKXyw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 05:39:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DZCX4GUDpETpUTEp7DY5GBHNW6BTBv2Eh/5NBKWKXyw="
         }
       ]
     },
@@ -15838,11 +15838,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5Q9OkNxv0nUDtJgSdB6PtzIIFXR0kvEe5t/DhL4EuTE=\""
+          "Value": "\"D+VrrGFKDss0/8umPCrp04AsQGP0PGRS9be2fZ6AAuU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 04:41:24 GMT"
+          "Value": "Fri, 09 May 2025 05:39:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15852,18 +15852,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-5Q9OkNxv0nUDtJgSdB6PtzIIFXR0kvEe5t/DhL4EuTE="
+          "Value": "sha256-D+VrrGFKDss0/8umPCrp04AsQGP0PGRS9be2fZ6AAuU="
         }
       ]
     },
     {
       "Route": "_framework/FitQuest.Shared.wasm",
-      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\d7ufhts9q2-5ocns1vpq9.gz",
+      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\d7ufhts9q2-f8alijw977.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000254777070"
+          "Quality": "0.000254906959"
         }
       ],
       "ResponseHeaders": [
@@ -15873,15 +15873,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3924"
+          "Value": "3922"
         },
         {
           "Name": "ETag",
-          "Value": "\"7ywb1+S7hbAo1Xc7Kb4Ru+MOswMMI+s655YD8eDhRDs=\""
+          "Value": "\"JTxxkCrLH2/lvzuoYnLsK4nsi87OVXOc/U/kHt35Y8Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 04:41:25 GMT"
+          "Value": "Fri, 09 May 2025 05:39:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15901,19 +15901,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"5Q9OkNxv0nUDtJgSdB6PtzIIFXR0kvEe5t/DhL4EuTE=\""
+          "Value": "W/\"D+VrrGFKDss0/8umPCrp04AsQGP0PGRS9be2fZ6AAuU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-5Q9OkNxv0nUDtJgSdB6PtzIIFXR0kvEe5t/DhL4EuTE="
+          "Value": "sha256-D+VrrGFKDss0/8umPCrp04AsQGP0PGRS9be2fZ6AAuU="
         }
       ]
     },
     {
       "Route": "_framework/FitQuest.Shared.wasm.gz",
-      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\d7ufhts9q2-5ocns1vpq9.gz",
+      "AssetFile": "C:\\Users\\Heatn\\OneDrive\\Desktop\\ProJects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Client\\obj\\Debug\\net9.0\\compressed\\d7ufhts9q2-f8alijw977.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15922,7 +15922,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3924"
+          "Value": "3922"
         },
         {
           "Name": "Content-Type",
@@ -15930,11 +15930,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7ywb1+S7hbAo1Xc7Kb4Ru+MOswMMI+s655YD8eDhRDs=\""
+          "Value": "\"JTxxkCrLH2/lvzuoYnLsK4nsi87OVXOc/U/kHt35Y8Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 04:41:25 GMT"
+          "Value": "Fri, 09 May 2025 05:39:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15952,7 +15952,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7ywb1+S7hbAo1Xc7Kb4Ru+MOswMMI+s655YD8eDhRDs="
+          "Value": "sha256-JTxxkCrLH2/lvzuoYnLsK4nsi87OVXOc/U/kHt35Y8Q="
         }
       ]
     },
