@@ -1,0 +1,112 @@
+.toast-container[b-fo5ugib94w] {
+  position: fixed;
+  top: var(--spacing-lg);
+  right: var(--spacing-lg);
+  z-index: 1050;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  max-width: 400px;
+  width: 100%;
+}
+
+.toast[b-fo5ugib94w] {
+  display: flex;
+  align-items: flex-start;
+  padding: var(--spacing-md);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  background-color: var(--color-white, #ffffff);
+  border-left: 4px solid;
+  animation: slideIn-b-fo5ugib94w 0.3s ease-out;
+  position: relative;
+}
+
+.toast-success[b-fo5ugib94w] {
+  border-left-color: var(--color-success, #26b050);
+  background-color: var(--color-success-light, #d4edda);
+}
+
+.toast-error[b-fo5ugib94w] {
+  border-left-color: var(--color-danger, #dc3545);
+  background-color: var(--color-danger-light, #f8d7da);
+}
+
+.toast-warning[b-fo5ugib94w] {
+  border-left-color: var(--color-warning, #ffc107);
+  background-color: var(--color-warning-light, #fff3cd);
+}
+
+.toast-info[b-fo5ugib94w] {
+  border-left-color: var(--color-info, #17a2b8);
+  background-color: var(--color-info-light, #d1ecf1);
+}
+
+.toast-content[b-fo5ugib94w] {
+  flex: 1;
+  margin-right: var(--spacing-sm);
+}
+
+.toast-title[b-fo5ugib94w] {
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+  margin-bottom: var(--spacing-xs);
+  color: var(--color-dark, #343a40);
+}
+
+.toast-message[b-fo5ugib94w] {
+  font-size: var(--font-size-sm);
+  line-height: 1.4;
+  color: var(--color-dark, #343a40);
+}
+
+.toast-close[b-fo5ugib94w] {
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--color-secondary, #6c757d);
+  cursor: pointer;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+
+.toast-close:hover[b-fo5ugib94w] {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: var(--color-dark, #343a40);
+}
+
+@keyframes slideIn-b-fo5ugib94w {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .toast-container[b-fo5ugib94w] {
+    top: var(--spacing-sm);
+    right: var(--spacing-sm);
+    left: var(--spacing-sm);
+    max-width: none;
+  }
+
+  .toast[b-fo5ugib94w] {
+    padding: var(--spacing-sm);
+  }
+
+  .toast-title[b-fo5ugib94w],
+  .toast-message[b-fo5ugib94w] {
+    font-size: var(--font-size-xs);
+  }
+}

@@ -1,0 +1,146 @@
+@page "/login"
+@using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.AspNetCore.Components
+@using Microsoft.AspNetCore.Components.Authorization
+@using System.Security.Claims
+@using System.ComponentModel.DataAnnotations
+@inject NavigationManager Nav
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject ITokenService TokenService
+@inject HttpClient Http
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-4">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title text-center mb-4">Login</h3>
+
+                    @if (!string.IsNullOrEmpty(errorMessage))
+                    {
+                        <div class="alert alert-danger" role="alert">
+                            @errorMessage
+                        </div>
+                    }
+
+                    @if (!string.IsNullOrEmpty(successMessage))
+                    {
+                        <div class="alert alert-success" role="alert">
+                            @successMessage
+                        </div>
+                    }
+
+                    <EditForm Model="loginModel" OnValidSubmit="HandleLogin">
+                        <DataAnnotationsValidator />
+                        <ValidationSummary class="text-danger mb-3" />
+
+                        <div class="form-group mb-3">
+                            <label class="form-label">Username</label>
+                            <InputText @bind-Value="loginModel.Username" class="form-control" placeholder="Enter your username" />
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label class="form-label">Password</label>
+                            <InputText @bind-Value="loginModel.Password" class="form-control" placeholder="Enter your password" type="password" />
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100" disabled="@isLoading">
+                            @if (isLoading)
+                            {
+                                <span class="spinner-border spinner-border-sm me-2" role="status"></span>
+                                <span>Logging in...</span>
+                            }
+                            else
+                            {
+                                <span>Login</span>
+                            }
+                        </button>
+                    </EditForm>
+
+                    <div class="text-center mt-3">
+                        <p>Don't have an account? <a href="/register" class="text-decoration-none">Register here</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    LoginDto loginModel = new();
+    private string? errorMessage;
+    private string? successMessage;
+    private bool isLoading = false;
+
+    async Task HandleLogin()
+    {
+        if (string.IsNullOrWhiteSpace(loginModel.Username) || string.IsNullOrWhiteSpace(loginModel.Password))
+        {
+            errorMessage = "Username and password cannot be empty.";
+            return;
+        }
+
+        try
+        {
+            isLoading = true;
+            errorMessage = null;
+            successMessage = null;
+            StateHasChanged();
+
+            var response = await Http.PostAsJsonAsync("api/auth/login", loginModel);
+            if (response.IsSuccessStatusCode)
+            {
+                var json = await response.Content.ReadFromJsonAsync<LoginResponse>();
+                if (json?.token is not null)
+                {
+                    await TokenService.SetTokenAsync(json.token);
+
+                    // Let the CustomAuthProvider handle JWT token parsing
+                    // This will properly extract all claims from the JWT token
+                    var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+                    ((CustomAuthProvider)AuthenticationStateProvider).NotifyAuthChanged(authState);
+                    
+                    successMessage = "Login successful! Redirecting...";
+                    StateHasChanged();
+                    
+                    // Small delay to show success message
+                    await Task.Delay(1000);
+                    Nav.NavigateTo("/dashboard");
+                }
+                else
+                {
+                    errorMessage = "Login failed: No authentication token received.";
+                }
+            }
+            else
+            {
+                var errorContent = await response.Content.ReadAsStringAsync();
+                errorMessage = response.StatusCode switch
+                {
+                    System.Net.HttpStatusCode.Unauthorized => "Invalid username or password. Please try again.",
+                    System.Net.HttpStatusCode.BadRequest => $"Login request failed: {errorContent}",
+                    _ => $"Login failed with status {response.StatusCode}: {errorContent}"
+                };
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Login error: {ex.Message}";
+        }
+        finally
+        {
+            isLoading = false;
+            StateHasChanged();
+        }
+    }
+
+    public class LoginDto
+    {
+        public string? Username { get; set; }
+        public string? Password { get; set; }
+    }
+    public class LoginResponse
+    {
+        public string? token { get; set; }
+    }
+}

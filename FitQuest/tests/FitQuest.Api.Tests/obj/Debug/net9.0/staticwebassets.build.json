@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "dKKvqyMT5eP5ZEBGazYwHDOWh505Fn0YQYSLBdxuQiA=",
+  "Source": "FitQuest.Api.Tests",
+  "BasePath": "_content/FitQuest.Api.Tests",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Heatn\\OneDrive\\Desktop\\Projects Folder\\FitQuest App\\FitQuest\\FitQuest\\src\\FitQuest.Api\\FitQuest.Api.csproj",
+      "Version": 2,
+      "Source": "FitQuest.Api",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

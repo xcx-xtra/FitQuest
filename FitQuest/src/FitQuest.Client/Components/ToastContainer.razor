@@ -1,0 +1,75 @@
+@using FitQuest.Client.Services
+@inject IToastService ToastService
+@implements IDisposable
+
+<div class="toast-container">
+    @foreach (var toast in _toasts)
+    {
+        <div class="toast toast-@toast.Type.ToString().ToLower()" @key="toast.Id">
+            <div class="toast-content">
+                @if (!string.IsNullOrEmpty(toast.Title))
+                {
+                    <div class="toast-title">@toast.Title</div>
+                }
+                <div class="toast-message">@toast.Message</div>
+            </div>
+            <button class="toast-close" @onclick="() => RemoveToast(toast.Id)">
+                ×
+            </button>
+        </div>
+    }
+</div>
+
+@code {
+    private readonly List<ToastMessage> _toasts = new();
+    private readonly Dictionary<string, Timer> _timers = new();
+
+    protected override void OnInitialized()
+    {
+        ToastService.OnToastAdded += HandleToastAdded;
+    }
+
+    private void HandleToastAdded(ToastMessage toast)
+    {
+        InvokeAsync(() =>
+        {
+            _toasts.Add(toast);
+            StateHasChanged();
+
+            // Set up auto-removal timer
+            var timer = new Timer(_ => InvokeAsync(() => RemoveToast(toast.Id)), 
+                                null, 
+                                toast.DurationMs, 
+                                Timeout.Infinite);
+            _timers[toast.Id] = timer;
+        });
+    }
+
+    private void RemoveToast(string toastId)
+    {
+        var toast = _toasts.FirstOrDefault(t => t.Id == toastId);
+        if (toast != null)
+        {
+            _toasts.Remove(toast);
+            
+            if (_timers.TryGetValue(toastId, out var timer))
+            {
+                timer.Dispose();
+                _timers.Remove(toastId);
+            }
+            
+            StateHasChanged();
+        }
+    }
+
+    public void Dispose()
+    {
+        ToastService.OnToastAdded -= HandleToastAdded;
+        
+        foreach (var timer in _timers.Values)
+        {
+            timer.Dispose();
+        }
+        _timers.Clear();
+    }
+}

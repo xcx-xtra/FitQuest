@@ -1,0 +1,151 @@
+@page "/test-login"
+@inject HttpClient Http
+@inject NavigationManager Nav
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject ITokenService TokenService
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title text-center mb-4">Test Login</h3>
+                    
+                    @if (!string.IsNullOrEmpty(message))
+                    {
+                        <div class="alert @(isError ? "alert-danger" : "alert-success")" role="alert">
+                            @message
+                        </div>
+                    }
+
+                    <div class="mb-3">
+                        <label class="form-label">Username</label>
+                        <input @bind="username" class="form-control" placeholder="Enter username" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input @bind="password" type="password" class="form-control" placeholder="Enter password" />
+                    </div>
+
+                    <button @onclick="TestLogin" class="btn btn-primary w-100" disabled="@isLoading">
+                        @if (isLoading)
+                        {
+                            <span>Loading...</span>
+                        }
+                        else
+                        {
+                            <span>Test Login</span>
+                        }
+                    </button>
+                    
+                    <button @onclick="TestRegister" class="btn btn-secondary w-100 mt-2" disabled="@isLoading">
+                        Test Register (testuser/Test123!)
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private string username = "testuser";
+    private string password = "Test123!";
+    private string? message;
+    private bool isError;
+    private bool isLoading;
+
+    private async Task TestLogin()
+    {
+        isLoading = true;
+        isError = false;
+        message = null;
+        StateHasChanged();
+
+        try
+        {
+            var loginData = new { Username = username, Password = password };
+            var response = await Http.PostAsJsonAsync("api/auth/login", loginData);
+            
+            if (response.IsSuccessStatusCode)
+            {
+                var result = await response.Content.ReadFromJsonAsync<LoginResponse>();
+                if (result?.token != null)
+                {
+                    await TokenService.SetTokenAsync(result.token);
+                    var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+                    ((CustomAuthProvider)AuthenticationStateProvider).NotifyAuthChanged(authState);
+                    
+                    message = "Login successful! Redirecting...";
+                    isError = false;
+                    StateHasChanged();
+                    
+                    await Task.Delay(1000);
+                    Nav.NavigateTo("/dashboard");
+                }
+                else
+                {
+                    message = "No token received";
+                    isError = true;
+                }
+            }
+            else
+            {
+                var errorContent = await response.Content.ReadAsStringAsync();
+                message = $"Login failed ({response.StatusCode}): {errorContent}";
+                isError = true;
+            }
+        }
+        catch (Exception ex)
+        {
+            message = $"Error: {ex.Message}";
+            isError = true;
+        }
+        finally
+        {
+            isLoading = false;
+            StateHasChanged();
+        }
+    }
+
+    private async Task TestRegister()
+    {
+        isLoading = true;
+        isError = false;
+        message = null;
+        StateHasChanged();
+
+        try
+        {
+            var registerData = new { Username = "testuser", Email = "test@example.com", Password = "Test123!" };
+            var response = await Http.PostAsJsonAsync("api/auth/register", registerData);
+            
+            if (response.IsSuccessStatusCode)
+            {
+                message = "Registration successful! You can now login.";
+                isError = false;
+            }
+            else
+            {
+                var errorContent = await response.Content.ReadAsStringAsync();
+                message = $"Registration failed ({response.StatusCode}): {errorContent}";
+                isError = true;
+            }
+        }
+        catch (Exception ex)
+        {
+            message = $"Error: {ex.Message}";
+            isError = true;
+        }
+        finally
+        {
+            isLoading = false;
+            StateHasChanged();
+        }
+    }
+
+    public class LoginResponse
+    {
+        public string? token { get; set; }
+    }
+}

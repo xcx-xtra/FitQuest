@@ -1,0 +1,24 @@
+2025-07-18 17:37:42.435 -05:00 [INF] Program: === FitQuest API Starting === {"Application":"FitQuest.Api","Environment":"Development"}
+2025-07-18 17:37:42.552 -05:00 [INF] Program: Environment: Development {"Application":"FitQuest.Api"}
+2025-07-18 17:37:42.571 -05:00 [INF] Program: Content Root: C:\Users\Heatn\OneDrive\Desktop\Projects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Api {"Application":"FitQuest.Api","Environment":"Development"}
+2025-07-18 17:37:42.586 -05:00 [INF] Program: Development mode: Enhanced logging and error details enabled {"Application":"FitQuest.Api","Environment":"Development"}
+2025-07-18 17:37:43.987 -05:00 [INF] Program: Database connection established successfully {"Application":"FitQuest.Api","Environment":"Development"}
+2025-07-18 17:37:44.098 -05:00 [INF] Program: Database is up to date. No migrations needed. {"Application":"FitQuest.Api","Environment":"Development"}
+2025-07-18 17:37:44.112 -05:00 [INF] Program: Seeding development data... {"Application":"FitQuest.Api","Environment":"Development"}
+2025-07-18 17:37:44.121 -05:00 [INF] Program: Development data seeding completed. {"Application":"FitQuest.Api","Environment":"Development"}
+2025-07-18 17:37:45.479 -05:00 [INF] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5124 {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"Application":"FitQuest.Api","Environment":"Development"}
+2025-07-18 17:37:45.493 -05:00 [INF] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down. {"Application":"FitQuest.Api","Environment":"Development"}
+2025-07-18 17:37:45.505 -05:00 [INF] Microsoft.Hosting.Lifetime: Hosting environment: Development {"Application":"FitQuest.Api","Environment":"Development"}
+2025-07-18 17:37:45.515 -05:00 [INF] Microsoft.Hosting.Lifetime: Content root path: C:\Users\Heatn\OneDrive\Desktop\Projects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Api {"Application":"FitQuest.Api","Environment":"Development"}
+2025-07-18 17:42:17.687 -05:00 [INF] Program: === FitQuest API Starting === {"Application":"FitQuest.Api","Environment":"Development"}
+2025-07-18 17:42:17.791 -05:00 [INF] Program: Environment: Development {"Application":"FitQuest.Api"}
+2025-07-18 17:42:17.807 -05:00 [INF] Program: Content Root: C:\Users\Heatn\OneDrive\Desktop\Projects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Api {"Application":"FitQuest.Api","Environment":"Development"}
+2025-07-18 17:42:17.816 -05:00 [INF] Program: Development mode: Enhanced logging and error details enabled {"Application":"FitQuest.Api","Environment":"Development"}
+2025-07-18 17:42:19.021 -05:00 [INF] Program: Database connection established successfully {"Application":"FitQuest.Api","Environment":"Development"}
+2025-07-18 17:42:19.149 -05:00 [INF] Program: Database is up to date. No migrations needed. {"Application":"FitQuest.Api","Environment":"Development"}
+2025-07-18 17:42:19.159 -05:00 [INF] Program: Seeding development data... {"Application":"FitQuest.Api","Environment":"Development"}
+2025-07-18 17:42:19.169 -05:00 [INF] Program: Development data seeding completed. {"Application":"FitQuest.Api","Environment":"Development"}
+2025-07-18 17:42:20.409 -05:00 [INF] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5124 {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"Application":"FitQuest.Api","Environment":"Development"}
+2025-07-18 17:42:20.422 -05:00 [INF] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down. {"Application":"FitQuest.Api","Environment":"Development"}
+2025-07-18 17:42:20.434 -05:00 [INF] Microsoft.Hosting.Lifetime: Hosting environment: Development {"Application":"FitQuest.Api","Environment":"Development"}
+2025-07-18 17:42:20.444 -05:00 [INF] Microsoft.Hosting.Lifetime: Content root path: C:\Users\Heatn\OneDrive\Desktop\Projects Folder\FitQuest App\FitQuest\FitQuest\src\FitQuest.Api {"Application":"FitQuest.Api","Environment":"Development"}

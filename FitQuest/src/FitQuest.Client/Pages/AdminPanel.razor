@@ -1,0 +1,79 @@
+@page "/admin-test"
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h3 class="mb-4">Admin Panel Test</h3>
+
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Navigation Controls</h5>
+                    <div class="d-flex gap-2">
+                        <button @onclick="EventCallback.Factory.Create(this, TestMethod)" class="btn btn-primary">Test Button</button>
+                        <button @onclick="EventCallback.Factory.Create(this, LoadPreviousPage)" disabled="@(!canLoadPrevious)" class="btn btn-secondary">Previous</button>
+                        <button @onclick="EventCallback.Factory.Create(this, LoadNextPage)" disabled="@(!canLoadNext)" class="btn btn-secondary">Next</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Item List</h5>
+                    <ul class="list-unstyled">
+                        @foreach (var item in items)
+                        {
+                            <li class="mb-1">• @item</li>
+                        }
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Admin Actions</h5>
+                    <div class="d-flex gap-2">
+                        <button @onclick="EventCallback.Factory.Create(this, ResetDailyGoals)" class="btn btn-warning">Reset Daily Goals</button>
+                        <button @onclick="EventCallback.Factory.Create(this, SendEmailReminders)" class="btn btn-info">Send Email Reminders</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private async Task TestMethod()
+    {
+        await Task.CompletedTask;
+        Console.WriteLine("Test button clicked!");
+    }
+
+    private async Task LoadPreviousPage()
+    {
+        await Task.CompletedTask;
+        Console.WriteLine("Previous page loaded!");
+    }
+
+    private async Task LoadNextPage()
+    {
+        await Task.CompletedTask;
+        Console.WriteLine("Next page loaded!");
+    }
+
+    private bool canLoadPrevious = true;
+    private bool canLoadNext = true;
+
+    private List<string> items = new List<string> { "Item 1", "Item 2", "Item 3" };
+
+    private async Task ResetDailyGoals()
+    {
+        await Task.CompletedTask;
+        Console.WriteLine("Daily goals reset!");
+    }
+
+    private async Task SendEmailReminders()
+    {
+        await Task.CompletedTask;
+        Console.WriteLine("Email reminders sent!");
+    }
+}

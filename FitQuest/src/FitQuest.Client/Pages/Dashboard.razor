@@ -1,0 +1,151 @@
+@page "/dashboard"
+@using Microsoft.AspNetCore.Components.Authorization
+@using Microsoft.AspNetCore.Authorization
+@using System.Security.Claims
+@using FitQuest.Shared.Models
+@using FitQuest.Client.Components
+@attribute [Authorize]
+@inherits BaseComponent
+
+<h3 class="fs-3 fw-bold mb-4">Welcome to your FitQuest Dashboard</h3>
+<p class="mb-4">You can view your goals and track progress here.</p>
+
+@inject PointService PointService
+@inject AuthenticationStateProvider AuthProvider
+@inject GoalService GoalService
+@inject NavigationManager Nav
+
+@if (!string.IsNullOrEmpty(ErrorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        <strong>Error:</strong> @ErrorMessage
+        <button type="button" class="btn btn-sm btn-outline-danger ms-2" @onclick="LoadDashboardData">
+            Retry
+        </button>
+    </div>
+}
+
+@if (IsLoading)
+{
+    <div class="d-flex justify-content-center my-4">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+}
+else
+{
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">Your Goals</h2>
+                        @if (goals?.Any() == true)
+                        {
+                            <ul class="list-unstyled">
+                                @foreach (var goal in goals)
+                                {
+                                    <li class="mb-2">
+                                        <strong>@goal.Title:</strong> @goal.Description 
+                                        <span class="badge @(goal.IsCompleted ? "bg-success" : "bg-secondary") ms-2">
+                                            @(goal.IsCompleted ? "Completed" : "In Progress")
+                                        </span>
+                                    </li>
+                                }
+                            </ul>
+                        }
+                        else
+                        {
+                            <p class="text-muted">No goals found. <a href="/goal-form">Create your first goal!</a></p>
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">Points</h2>
+                        <p class="fs-1 fw-bold text-success mb-3">@(summary?.TotalPoints ?? 0)</p>
+                        @if (summary?.History?.Any() == true)
+                        {
+                            <ul class="list-unstyled">
+                                @foreach (var e in summary.History.Take(5))
+                                {
+                                    <li class="mb-1">
+                                        <small class="text-muted">@e.Timestamp.ToShortDateString():</small><br>
+                                        @e.Description — <span class="fw-semibold text-success">@e.Points pts</span>
+                                    </li>
+                                }
+                            </ul>
+                        }
+                        else
+                        {
+                            <p class="text-muted">No point history available.</p>
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">Badges</h2>
+                        <!-- Show badge icons here -->
+                        <i class="fas fa-star text-warning fs-2"></i>
+                        <!-- Add more icons as needed -->
+                        <p class="text-muted mt-2">Badge system coming soon!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    private PointSummaryDto? summary;
+    private List<DailyGoal>? goals;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadDashboardData();
+    }
+
+    private async Task LoadDashboardData()
+    {
+        await ExecuteWithErrorHandlingAsync(async () =>
+        {
+            var auth = await AuthProvider.GetAuthenticationStateAsync();
+            
+            // Check multiple possible claims for user ID
+            var userId = auth.User.FindFirst(c => c.Type == "sub")?.Value
+                      ?? auth.User.FindFirst(c => c.Type == "nameid")?.Value
+                      ?? auth.User.FindFirst(c => c.Type == "id")?.Value
+                      ?? auth.User.FindFirst(c => c.Type == ClaimTypes.NameIdentifier)?.Value;
+
+            if (string.IsNullOrEmpty(userId))
+            {
+                // If no user ID found, check if user is authenticated at all
+                if (!auth.User.Identity?.IsAuthenticated == true)
+                {
+                    // User is not authenticated, redirect to login
+                    Nav.NavigateTo("/login");
+                    return;
+                }
+                
+                // User is authenticated but no ID claim found - this is a token issue
+                throw new InvalidOperationException("User ID not found in authentication token. Please log in again.");
+            }
+
+            // Load data in parallel for better performance
+            var summaryTask = PointService.GetUserPointsAsync(userId);
+            var goalsTask = GoalService.GetUserGoalsAsync(userId);
+
+            await Task.WhenAll(summaryTask, goalsTask);
+
+            summary = await summaryTask;
+            goals = await goalsTask;
+
+            Logger.LogInformation("Dashboard data loaded successfully for user {UserId}", userId);
+        }, "LoadDashboardData");
+    }
+}

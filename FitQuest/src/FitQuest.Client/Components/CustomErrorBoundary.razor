@@ -1,0 +1,109 @@
+@using Microsoft.AspNetCore.Components.Web
+@using Microsoft.JSInterop
+@inherits ErrorBoundaryBase
+
+<div class="custom-error-boundary">
+    @if (CurrentException is not null)
+    {
+        <div class="error-container">
+            <div class="error-icon">⚠️</div>
+            <div class="error-content">
+                <h3 class="error-title">Something went wrong</h3>
+                <p class="error-message">@GetUserFriendlyMessage(CurrentException)</p>
+                
+                @if (ShowDetails)
+                {
+                    <details class="error-details">
+                        <summary>Technical Details</summary>
+                        <pre class="error-stack">@CurrentException.ToString()</pre>
+                    </details>
+                }
+                
+                <div class="error-actions">
+                    <button class="btn btn-primary" @onclick="Recover">
+                        Try Again
+                    </button>
+                    <button class="btn btn-secondary" @onclick="ToggleDetails">
+                        @(ShowDetails ? "Hide" : "Show") Details
+                    </button>
+                    <button class="btn btn-outline-secondary" @onclick="GoHome">
+                        Go Home
+                    </button>
+                    <button class="btn btn-outline-secondary" @onclick="RefreshPage">
+                        Refresh Page
+                    </button>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        @ChildContent
+    }
+</div>
+
+@code {
+    [Parameter] public bool ShowDetailsDefault { get; set; } = false;
+    [Inject] private NavigationManager Navigation { get; set; } = default!;
+    [Inject] private IJSRuntime JSRuntime { get; set; } = default!;
+    
+    private bool ShowDetails { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        ShowDetails = ShowDetailsDefault;
+        base.OnParametersSet();
+    }
+
+    protected override Task OnErrorAsync(Exception exception)
+    {
+        // This method is called when an error occurs
+        // We need to implement this abstract method
+        return Task.CompletedTask;
+    }
+
+    private string GetUserFriendlyMessage(Exception exception)
+    {
+        return exception switch
+        {
+            HttpRequestException httpEx when httpEx.Message.Contains("401") => 
+                "You need to log in to access this feature.",
+            
+            HttpRequestException httpEx when httpEx.Message.Contains("403") => 
+                "You don't have permission to access this resource.",
+            
+            HttpRequestException httpEx when httpEx.Message.Contains("404") => 
+                "The requested resource could not be found.",
+            
+            HttpRequestException httpEx when httpEx.Message.Contains("500") => 
+                "The server encountered an error. Please try again later.",
+            
+            TaskCanceledException => 
+                "The request took too long to complete. Please check your connection and try again.",
+            
+            ArgumentException => 
+                "Invalid input provided. Please check your data and try again.",
+            
+            InvalidOperationException => 
+                "This operation cannot be completed at this time. Please try again.",
+            
+            _ => "An unexpected error occurred. Please try again or contact support if the problem persists."
+        };
+    }
+
+    private void ToggleDetails()
+    {
+        ShowDetails = !ShowDetails;
+        StateHasChanged();
+    }
+
+    private void GoHome()
+    {
+        Navigation.NavigateTo("/");
+    }
+
+    private async Task RefreshPage()
+    {
+        await JSRuntime.InvokeVoidAsync("location.reload");
+    }
+}

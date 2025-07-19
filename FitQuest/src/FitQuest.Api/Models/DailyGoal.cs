@@ -1,0 +1,1 @@
+// Removed the local DailyGoal model. The FitQuest.Api project will now use the DailyGoal model from the FitQuest.Shared project.

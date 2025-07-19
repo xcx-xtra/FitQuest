@@ -1,0 +1,25 @@
+﻿@using FitQuest.Client.Layout
+@using FitQuest.Client.Components
+@inherits LayoutComponentBase
+<div class="page">
+    <div class="sidebar">
+        <CustomErrorBoundary ShowDetailsDefault="false">
+            <NavMenu />
+        </CustomErrorBoundary>
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
+        </div>
+
+        <article class="content px-4">
+            <CustomErrorBoundary ShowDetailsDefault="false">
+                @Body
+            </CustomErrorBoundary>
+        </article>
+    </main>
+    
+    <!-- Connection status indicator -->
+    <ConnectionStatus />
+</div>

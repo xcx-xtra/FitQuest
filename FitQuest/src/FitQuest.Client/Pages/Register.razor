@@ -1,0 +1,78 @@
+@page "/register"
+@using System.ComponentModel.DataAnnotations
+@inject HttpClient Http
+@inject NavigationManager Nav
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-4">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title text-center mb-4">Register</h3>
+
+                    <EditForm Model="registerModel" OnValidSubmit="HandleRegister">
+                        <DataAnnotationsValidator />
+                        <ValidationSummary class="text-danger mb-3" />
+
+                        <div class="form-group">
+                            <label class="form-label">Username</label>
+                            <InputText @bind-Value="registerModel.Username" class="form-control" placeholder="Enter your username" />
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Email</label>
+                            <InputText @bind-Value="registerModel.Email" class="form-control" placeholder="Enter your email" />
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Password</label>
+                            <InputText @bind-Value="registerModel.Password" class="form-control" placeholder="Enter your password" type="password" />
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100">Register</button>
+                    </EditForm>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    RegisterDto registerModel = new();
+
+    async Task HandleRegister()
+    {
+        try
+        {
+            var response = await Http.PostAsJsonAsync("api/auth/register", registerModel);
+            if (response.IsSuccessStatusCode)
+            {
+                Console.WriteLine("Registration successful. Redirecting to login...");
+                Nav.NavigateTo("/login");
+            }
+            else
+            {
+                var errorContent = await response.Content.ReadAsStringAsync();
+                Console.WriteLine($"Registration failed: {response.StatusCode} - {errorContent}");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An error occurred during registration: {ex.Message}");
+        }
+    }
+
+    public class RegisterDto
+    {
+        [Required]
+        public string Username { get; set; } = string.Empty;
+
+        [Required]
+        public string Email { get; set; } = string.Empty;
+
+        [Required]
+        [MinLength(8, ErrorMessage = "Password must be at least 8 characters long.")]
+        [RegularExpression(@"^(?=.*[A-Z])(?=.*[^a-zA-Z0-9]).+$", ErrorMessage = "Password must contain at least one uppercase letter and one non-alphanumeric character.")]
+        public string Password { get; set; } = string.Empty;
+    }
+}

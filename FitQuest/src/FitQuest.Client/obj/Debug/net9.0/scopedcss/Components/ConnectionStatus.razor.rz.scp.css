@@ -1,0 +1,72 @@
+.connection-status[b-psr7ypg3rt] {
+  position: fixed;
+  top: var(--spacing-md);
+  right: var(--spacing-md);
+  background: var(--color-white);
+  border: 1px solid var(--color-light);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-sm) var(--spacing-md);
+  box-shadow: var(--shadow-md);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  font-size: var(--font-size-sm);
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.connection-status-connected[b-psr7ypg3rt],
+.connection-status-reconnected[b-psr7ypg3rt] {
+  border-color: var(--color-success);
+  background: rgba(38, 176, 80, 0.1);
+}
+
+.connection-status-reconnecting[b-psr7ypg3rt] {
+  border-color: var(--color-warning);
+  background: rgba(255, 193, 7, 0.1);
+}
+
+.connection-status-disconnected[b-psr7ypg3rt],
+.connection-status-failed[b-psr7ypg3rt] {
+  border-color: var(--color-danger);
+  background: rgba(220, 53, 69, 0.1);
+}
+
+.connection-icon[b-psr7ypg3rt] {
+  font-size: var(--font-size-sm);
+}
+
+.connection-text[b-psr7ypg3rt] {
+  font-weight: 500;
+}
+
+.btn-reconnect[b-psr7ypg3rt] {
+  background: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  font-size: var(--font-size-xs);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-reconnect:hover[b-psr7ypg3rt] {
+  background: var(--color-primary-hover);
+}
+
+.btn-reconnect:active[b-psr7ypg3rt] {
+  transform: translateY(1px);
+}
+
+/* Hide on mobile to save space */
+@media (max-width: 768px) {
+  .connection-status[b-psr7ypg3rt] {
+    position: relative;
+    top: auto;
+    right: auto;
+    margin: var(--spacing-sm) 0;
+    width: 100%;
+    justify-content: center;
+  }
+}

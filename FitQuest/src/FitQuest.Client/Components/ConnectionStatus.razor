@@ -1,0 +1,74 @@
+@using FitQuest.Client.Services
+@inject ISignalRService SignalRService
+@implements IDisposable
+
+@if (ShowStatus && !string.IsNullOrEmpty(_connectionStatus))
+{
+    <div class="connection-status connection-status-@_connectionStatus.ToLower()">
+        <span class="connection-icon">@GetStatusIcon()</span>
+        <span class="connection-text">@GetStatusText()</span>
+        @if (_connectionStatus == "Failed" || _connectionStatus == "Disconnected")
+        {
+            <button class="btn-reconnect" @onclick="TryReconnect">
+                Retry
+            </button>
+        }
+    </div>
+}
+
+@code {
+    [Parameter] public bool ShowStatus { get; set; } = true;
+    
+    private string _connectionStatus = "Disconnected";
+
+    protected override void OnInitialized()
+    {
+        SignalRService.OnConnectionStateChanged += HandleConnectionStateChanged;
+        _connectionStatus = SignalRService.IsConnected ? "Connected" : "Disconnected";
+    }
+
+    private void HandleConnectionStateChanged(string status)
+    {
+        InvokeAsync(() =>
+        {
+            _connectionStatus = status;
+            StateHasChanged();
+        });
+    }
+
+    private string GetStatusIcon()
+    {
+        return _connectionStatus switch
+        {
+            "Connected" => "🟢",
+            "Reconnected" => "🟢",
+            "Reconnecting" => "🟡",
+            "Disconnected" => "🔴",
+            "Failed" => "🔴",
+            _ => "⚪"
+        };
+    }
+
+    private string GetStatusText()
+    {
+        return _connectionStatus switch
+        {
+            "Connected" => "Real-time updates active",
+            "Reconnected" => "Connection restored",
+            "Reconnecting" => "Reconnecting...",
+            "Disconnected" => "Real-time updates unavailable",
+            "Failed" => "Connection failed",
+            _ => "Unknown status"
+        };
+    }
+
+    private async Task TryReconnect()
+    {
+        await SignalRService.TryReconnectAsync();
+    }
+
+    public void Dispose()
+    {
+        SignalRService.OnConnectionStateChanged -= HandleConnectionStateChanged;
+    }
+}
